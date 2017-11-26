@@ -1,5 +1,5 @@
 from __future__ import division
-from sklearn import linear_model
+from sklearn import linear_model, metrics
 from sklearn.naive_bayes import BernoulliNB, GaussianNB
 import os
 import json
@@ -57,6 +57,7 @@ def learn_departments():
 	print "===== Average Course Enrollment by Department =====\n"
 	for dep, enroll_rate in enrollment_by_dep:
 		print dep, round(enroll_rate, 3),
+	print "\n\n"
 
 	# Construct 1D course-department matrix
 	dep_nums = {dep : i for i, dep in enumerate(departments)}
@@ -64,11 +65,21 @@ def learn_departments():
 
 	# Train and predict
 	model = linear_model.LinearRegression()
-	# model = GaussianNB() # These both produce "Unknown label type" ValueErrors
-	# model = BernoulliNB()
 	predictions_same_data = model.fit(matrix, targets).predict(matrix)
-	# for i, course in enumerate(courses):
-	# 	print course["term"], course["title"], targets[i], predictions_same_data[i]
+	
+	# These models both produce "Unknown label type" ValueErrors.
+	# I think certain models can only work with certain input, e.g. Bern is 0 or 1.
+	# I think Naive Bayes is actually the one we'd want if predicting on just departments.
+	# While regression tries to fit a line to the average enrollment rates, I think 
+	# Naive Bayes would assume independence between departments and just use those averages.
+	# model = GaussianNB()
+	# model = BernoulliNB() 
+	
+	# Analyze predictions
+	print "===== Regressing on Departments =====\n"
+	print "Mean squared error:", metrics.mean_squared_error(targets, predictions_same_data), "\n"
+	for i, course in enumerate(courses):
+		print course["term"], course["title"], targets[i], predictions_same_data[i]
 
 def main():
 	
@@ -77,7 +88,7 @@ def main():
 	print "\n===== Initial Analysis =====\n"
 	print "Number of courses:", len(courses)
 	print "Number of courses filled to capacity:", len([t for t in targets if t >= 1])
-	print "Average enrollment (allowing targets greater than 1):", sum(targets) / len(targets)
+	print "Average enrollment (allowing targets greater than 1):", sum(targets) / len(targets), "\n\n"
 	
 	learn_departments()
 	
