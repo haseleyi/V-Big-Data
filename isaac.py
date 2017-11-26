@@ -78,8 +78,10 @@ def learn_departments():
 	# Analyze predictions
 	print "===== Regressing on Departments =====\n"
 	print "Mean squared error:", metrics.mean_squared_error(targets, predictions_same_data), "\n"
-	for i, course in enumerate(courses):
-		print course["term"], course["title"], targets[i], predictions_same_data[i]
+	# Once we're using multiple variables, we can compare the error of different models like this ^
+	# Un-comment the below to see how the linear regression predicts for each department
+	# for i, course in enumerate(courses):
+	# 	print course["term"], course["title"], targets[i], predictions_same_data[i]
 
 def main():
 	
