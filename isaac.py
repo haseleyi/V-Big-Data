@@ -8,7 +8,7 @@ import json
 import numpy as np
 import math
 
-courses, targets, departments, distros = [], [], [], []
+courses, targets, departments, distros, starts = [], [], [], [], []
 
 def initialize_courses():
 	path = "Carleton Data - Past Terms"
@@ -21,13 +21,14 @@ def initialize_courses():
 				has_components = prediction_variables_present(course)
 
 				is_ai = "Argument & Inquiry Seminar" in course["requirements_met"].split("\n")
+				is_pe = course["department"] == "PE"
 				
 				lab_in_title = "Lab" in course["title"]
 				is_music = course["department"] == "MUSC"
 				six_credits = course["credits"][0] == "6"
 				is_lab = lab_in_title and not is_music and not six_credits
 				
-				if has_components and not is_lab and not is_ai:
+				if has_components and not is_lab and not is_ai and not is_pe:
 					courses.append(course)
 			except:
 				pass
@@ -58,7 +59,7 @@ def analyze():
 			department_set.add(course["department"])
 	departments.extend(sorted(department_set))
 
-	# analyze: Average course enrollment rate by department
+	# Analyze average course enrollment rate by department
 	enrollment_by_dep = []
 	for dep in departments:
 		dep_targets = [targets[i] for i, course in enumerate(courses) if course["department"] == dep]
@@ -77,7 +78,7 @@ def analyze():
 				distro_set.add(distro)
 	distros.extend(sorted(distro_set))
 
-	# analyze: Average course enrollment rate by distro
+	# Analyze average course enrollment rate by distro
 	enrollment_by_distro = []
 	for distro in distros:
 		distro_targets = [targets[i] for i, course in enumerate(courses) if distro in course["requirements_met"].split("\n")]
@@ -86,6 +87,38 @@ def analyze():
 	print "===== Average Course Enrollment by Distro =====\n"
 	for distro, enroll_rate in enrollment_by_distro:
 		print distro, round(enroll_rate, 3),
+	print "\n\n"
+
+	# Input is a course's start time as a string
+	# Returns number of hours past 8am in decimal format
+	def time_string_to_float(time):
+		time_list = time.split(":")
+		hour = int(time_list[0])
+		minute = round(float(time_list[1][:2]) / 60, 3)
+		ampm = time_list[1][-2:]
+		if ampm == "am" or hour == 12:
+			hour -= 8
+		elif ampm == "pm":
+			hour += 4
+		return float(str(hour) + str(minute)[1:])
+	
+	start_set = {time_string_to_float(course["start_time"]) for course in courses}
+	starts.extend(start_set)
+
+	normal_academic_times = {"8:30am", "9:50am", "11:10am", "12:30pm", "1:50pm", "3:10pm", "8:15am", "10:10am", "1:15pm"}
+	for course in courses:
+		if course["start_time"] not in normal_academic_times:
+			print course["department"], course["title"], course["start_time"]
+
+	# Analyze average course enrollment rate by start time
+	enrollment_by_start = []
+	for start in starts:
+		start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
+		enrollment_by_start.append((start, sum(start_targets) / len(start_targets)))
+	enrollment_by_start.sort(key=lambda x : x[0], reverse=True)
+	print "===== Average Course Enrollment by Start =====\n"
+	for start, enroll_rate in enrollment_by_start:
+		print start, round(enroll_rate, 3)
 	print "\n\n"
 
 
@@ -98,8 +131,10 @@ def predict():
 	# Construct training matrix
 	matrix = np.zeros((len(courses), 5))
 	for i, course in enumerate(courses):
+		
 		# One column for department classification
 		matrix[i][0] = dep_nums[course["department"]]
+		
 		# Four columns for possible distros
 		course_distros = course["requirements_met"].split("\n")
 		course_distros = filter(lambda distro : distro, course_distros)
@@ -108,6 +143,7 @@ def predict():
 
 	# Standardize the data
 	# ...(to do once there are more variables involved)
+	# center data at 0 and divide by variance (standardization)
 
 	# Create and train random forest classifier
 	rfr = RandomForestRegressor(n_estimators = 200, oob_score = True)
@@ -124,3 +160,15 @@ def main():
 	predict()
 	
 main()
+
+'''
+=== V BIG DATA ===
+Get multiple variables into a prediction matrix by Thursday so you can ask Ulf about the shaping error
+Put in how many course spots?
+Try a different error function of (mean squared error) * P(t) <- For P(t), make histogram of t's and normalize, take value at t bucket
+
+random forest (could overfit on floats)
+support vector machine (svm) -> center data at 0 and divide by variance (standardization) (prefers floats)
+multi-layer perceptron (mlp) (100 hidden states, 10 hidden states -> same deal as forest's n_estimators) (prefers floats)
+
+Try excluding courses at odd times and see if model improves
