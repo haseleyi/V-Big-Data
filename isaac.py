@@ -1,6 +1,8 @@
 from __future__ import division
 from sklearn import linear_model, metrics
 from sklearn.naive_bayes import BernoulliNB, GaussianNB
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
+from sklearn.feature_selection import SelectFromModel
 import os
 import json
 import numpy as np
@@ -105,13 +107,13 @@ def predict():
 			matrix[i][1 + j] = distro_nums[distro]
 
 	# Standardize the data
+	# ...(to do once there are more variables involved)
 
-	# Train and predict
-	model = linear_model.LinearRegression()
-	predictions_same_data = model.fit(matrix, targets).predict(matrix)
-	
-	print "===== Regression Results =====\n"
-	# We can compare the error of different models like this
+	# Create and train random forest classifier
+	rfr = RandomForestRegressor(n_estimators = 200, oob_score = True)
+	predictions_same_data = rfr.fit(matrix, np.array(targets).ravel()).predict(matrix)
+
+	print "===== RandomForestRegressor Results =====\n"
 	print "Mean error:", math.sqrt(metrics.mean_squared_error(targets, predictions_same_data)), "\n"
 	
 
