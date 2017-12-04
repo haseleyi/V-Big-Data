@@ -10,6 +10,30 @@ import math
 
 courses, targets, departments, distros, starts = [], [], [], [], []
 
+def prediction_variables_present(course):
+	for field in ["summary", "start_time", "end_time", "department", "requirements_met", "registered", "size", "faculty"]:
+		try:
+			if course[field] == "n/a":
+				return False
+		except:
+			return False
+	return float(course["size"]) > 0
+
+
+# Input is a course's start time as a string
+# Returns number of hours past 8am in decimal format
+def time_string_to_float(time):
+	time_list = time.split(":")
+	hour = int(time_list[0])
+	minute = round(float(time_list[1][:2]) / 60, 3)
+	ampm = time_list[1][-2:]
+	if ampm == "am" or hour == 12:
+		hour -= 8
+	elif ampm == "pm":
+		hour += 4
+	return float(str(hour) + str(minute)[1:])
+
+
 def initialize_courses():
 	path = "Carleton Data - Past Terms"
 	for term in os.listdir(path):
@@ -33,16 +57,6 @@ def initialize_courses():
 			except:
 				pass
 	targets.extend([float(course["registered"]) / float(course["size"]) for course in courses])
-
-
-def prediction_variables_present(course):
-	for field in ["summary", "start_time", "end_time", "department", "requirements_met", "registered", "size"]:
-		try:
-			if course[field] == "n/a":
-				return False
-		except:
-			return False
-	return float(course["size"]) > 0
 
 
 def analyze():
@@ -88,38 +102,20 @@ def analyze():
 	for distro, enroll_rate in enrollment_by_distro:
 		print distro, round(enroll_rate, 3),
 	print "\n\n"
-
-	# Input is a course's start time as a string
-	# Returns number of hours past 8am in decimal format
-	def time_string_to_float(time):
-		time_list = time.split(":")
-		hour = int(time_list[0])
-		minute = round(float(time_list[1][:2]) / 60, 3)
-		ampm = time_list[1][-2:]
-		if ampm == "am" or hour == 12:
-			hour -= 8
-		elif ampm == "pm":
-			hour += 4
-		return float(str(hour) + str(minute)[1:])
 	
 	start_set = {time_string_to_float(course["start_time"]) for course in courses}
 	starts.extend(start_set)
 
-	normal_academic_times = {"8:30am", "9:50am", "11:10am", "12:30pm", "1:50pm", "3:10pm", "8:15am", "10:10am", "1:15pm"}
-	for course in courses:
-		if course["start_time"] not in normal_academic_times:
-			print course["department"], course["title"], course["start_time"]
-
 	# Analyze average course enrollment rate by start time
-	enrollment_by_start = []
-	for start in starts:
-		start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
-		enrollment_by_start.append((start, sum(start_targets) / len(start_targets)))
-	enrollment_by_start.sort(key=lambda x : x[0], reverse=True)
-	print "===== Average Course Enrollment by Start =====\n"
-	for start, enroll_rate in enrollment_by_start:
-		print start, round(enroll_rate, 3)
-	print "\n\n"
+	# enrollment_by_start = []
+	# for start in starts:
+	# 	start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
+	# 	enrollment_by_start.append((start, sum(start_targets) / len(start_targets)))
+	# enrollment_by_start.sort(key=lambda x : x[0], reverse=True)
+	# print "===== Average Course Enrollment by Start =====\n"
+	# for start, enroll_rate in enrollment_by_start:
+	# 	print start, round(enroll_rate, 3)
+	# print "\n\n"
 
 
 def predict():
@@ -127,19 +123,23 @@ def predict():
 	# Construct map for each variable
 	dep_nums = {dep : i + 1 for i, dep in enumerate(departments)}
 	distro_nums = {distro : i + 1 for i, distro in enumerate(distros)}
+	start_nums = {start : i + 1 for i, start in enumerate(starts)}
 
 	# Construct training matrix
-	matrix = np.zeros((len(courses), 5))
+	matrix = np.zeros((len(courses), 6))
 	for i, course in enumerate(courses):
 		
-		# One column for department classification
+		# Column 0: Department classification
 		matrix[i][0] = dep_nums[course["department"]]
 		
-		# Four columns for possible distros
+		# Columns 1 - 4: Possible distros
 		course_distros = course["requirements_met"].split("\n")
 		course_distros = filter(lambda distro : distro, course_distros)
 		for j, distro in enumerate(course_distros):
 			matrix[i][1 + j] = distro_nums[distro]
+
+		# Column 5: Start time
+		matrix[i][5] = start_nums[time_string_to_float(course["start_time"])]
 
 	# Standardize the data
 	# ...(to do once there are more variables involved)
@@ -162,13 +162,36 @@ def main():
 main()
 
 '''
-=== V BIG DATA ===
-Get multiple variables into a prediction matrix by Thursday so you can ask Ulf about the shaping error
-Put in how many course spots?
+************************* MODEL *************************
+
 Try a different error function of (mean squared error) * P(t) <- For P(t), make histogram of t's and normalize, take value at t bucket
 
 random forest (could overfit on floats)
 support vector machine (svm) -> center data at 0 and divide by variance (standardization) (prefers floats)
 multi-layer perceptron (mlp) (100 hidden states, 10 hidden states -> same deal as forest's n_estimators) (prefers floats)
 
-Try excluding courses at odd times and see if model improves
+
+************************* START TIMES *************************
+
+Options for start time:	
+	Try keeping everything
+	Try excluding courses at odd times and see if model improves
+	Try bucketting into "before __", "after __"
+
+Results:
+	Everything as floats: .1937
+	Only normal times as floats: more
+
+
+************************* FACULTY *************************
+
+=== In Enroll data ===
+
+Double space between name
+Middle initial is common --> check for name both with and without
+Comma separating multiple instructors
+
+=== In RateMy data ===
+
+Just first name and last name --> check if both are "in" field
+'''
