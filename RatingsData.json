@@ -1,2047 +1,2050 @@
- "ratings":[
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2187750,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mar",
-        "teacherlastname_t":"Valdecantos"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2225528,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Russ",
-        "teacherlastname_t":"Petricka"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2233630,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Steven",
-        "teacherlastname_t":"Kozberg"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2238233,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kao",
-        "teacherlastname_t":"Yang"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2192075,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Austin",
-        "teacherlastname_t":"Mason"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2261796,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Ethan",
-        "teacherlastname_t":"Struby"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2282526,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Rika",
-        "teacherlastname_t":"Anderson"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1620054,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Hougen"},
-      {
-        "averageratingscore_rf":2.0,
-        "pk_id":2289235,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Zheng",
-        "teacherlastname_t":"Wen"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2232391,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Zaki",
-        "teacherlastname_t":"Haidar"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2168155,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Megan",
-        "teacherlastname_t":"Sarno"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":2283918,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Allison",
-        "teacherlastname_t":"Murphy"},
-         {
-        "averageratingscore_rf":4.5,
-        "pk_id":851052,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Catherine",
-        "teacherlastname_t":"Reinke"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1099678,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Deborah",
-        "teacherlastname_t":"Appleman"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1259946,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Stephen",
-        "teacherlastname_t":"Kelly"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1413348,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jorge",
-        "teacherlastname_t":"Bravo"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1461315,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cynthia",
-        "teacherlastname_t":"Shearer"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":1463052,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Susan",
-        "teacherlastname_t":"Singer"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1477501,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Avaren",
-        "teacherlastname_t":"Ipsen"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1482955,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jim",
-        "teacherlastname_t":"McDonnell"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1619096,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"John",
-        "teacherlastname_t":"Ellinger"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1619668,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jorge",
-        "teacherlastname_t":"Brioso"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1725672,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Gretchen",
-        "teacherlastname_t":"Hofmeister"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1728621,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Amy",
-        "teacherlastname_t":"Moore"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":1753775,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Laska",
-        "teacherlastname_t":"Jimsen"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":1761501,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sara",
-        "teacherlastname_t":"Gonzalez"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1822137,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Joseph",
-        "teacherlastname_t":"Paxton"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":2148785,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Annie",
-        "teacherlastname_t":"Bosacker"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2162708,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Melissa",
-        "teacherlastname_t":"Eblen-Zayas"},
-      {
-        "averageratingscore_rf":1.0,
-        "pk_id":2168091,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Janell",
-        "teacherlastname_t":"Rothenberg"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2175135,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Hans",
-        "teacherlastname_t":"Wietzke"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2180641,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Stephen",
-        "teacherlastname_t":"Lewis"},
-
-       {
-        "averageratingscore_rf":4.0,
-        "pk_id":1805876,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Daniel",
-        "teacherlastname_t":"Williams"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":1831719,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jack",
-        "teacherlastname_t":"Goldfeather"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":1985078,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Nelson",
-        "teacherlastname_t":"Christensen"},
-      {
-        "averageratingscore_rf":2.5,
-        "pk_id":1988024,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jadrian",
-        "teacherlastname_t":"Miles"},
-      {
-        "averageratingscore_rf":1.75,
-        "pk_id":2020571,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jalean",
-        "teacherlastname_t":"Petricka"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2075881,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Steven",
-        "teacherlastname_t":"Poskanzer"},
-      {
-        "averageratingscore_rf":4.75,
-        "pk_id":2114225,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Juliane",
-        "teacherlastname_t":"Schicker"},
-      {
-        "averageratingscore_rf":3.8,
-        "pk_id":2119233,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Lauren",
-        "teacherlastname_t":"Milne"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":2149907,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Andrea",
-        "teacherlastname_t":"Mazzariello"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":2168057,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kathryn",
-        "teacherlastname_t":"Wegner"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2194956,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sandra",
-        "teacherlastname_t":"Rousseau"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":2234807,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jay",
-        "teacherlastname_t":"Tasson"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2238204,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Adam",
-        "teacherlastname_t":"Loy"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":2255107,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Ashley",
-        "teacherlastname_t":"Smith"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":2021862,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Liz",
-        "teacherlastname_t":"Ciner"},
-      {
-        "averageratingscore_rf":1.0,
-        "pk_id":2168740,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Rita",
-        "teacherlastname_t":"Thompson"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":2192355,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Catherine",
-        "teacherlastname_t":"Licata"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2261793,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Blake",
-        "teacherlastname_t":"Howald"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":2231058,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Christina",
-        "teacherlastname_t":"Farhart"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":725944,
-        "total_number_of_ratings_i":1,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Karina",
-        "teacherlastname_t":"Eileraas"},
-        {
-        "averageratingscore_rf":4.3,
-        "pk_id":2173863,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Maurella",
-        "teacherlastname_t":"Cunningham"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2220883,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Janet",
-        "teacherlastname_t":"Polasky"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2235551,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Medeiros"},
-      {
-        "averageratingscore_rf":3.7,
-        "pk_id":2239092,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jessica",
-        "teacherlastname_t":"Keating"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2155889,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Fernando",
-        "teacherlastname_t":"Contreras"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1463053,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Debbie",
-        "teacherlastname_t":"Walser-Kuntz"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":2295878,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"George",
-        "teacherlastname_t":"Cusack"},
-      {
-        "averageratingscore_rf":4.25,
-        "pk_id":17166,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Qiguang",
-        "teacherlastname_t":"Zhao"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":310618,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jennifer",
-        "teacherlastname_t":"Manion"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":430125,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Theo",
-        "teacherlastname_t":"Cateforis"},
-      {
-        "averageratingscore_rf":4.75,
-        "pk_id":576521,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Adeeb",
-        "teacherlastname_t":"Khalid"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":576529,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Lori",
-        "teacherlastname_t":"Pearson"},
-      {
-        "averageratingscore_rf":4.25,
-        "pk_id":576540,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Dana",
-        "teacherlastname_t":"Strand"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":653145,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Steve",
-        "teacherlastname_t":"Parker"},
-      {
-        "averageratingscore_rf":4.75,
-        "pk_id":685202,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Rudolph",
-        "teacherlastname_t":"Byrd"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":851050,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Caroline",
-        "teacherlastname_t":"Burke"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":1194901,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Julie",
-        "teacherlastname_t":"Klassen"},
-      {
-        "averageratingscore_rf":2.0,
-        "pk_id":1210629,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Liz",
-        "teacherlastname_t":"Coville"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1643929,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Meera",
-        "teacherlastname_t":"Sehgal"},
-      {
-        "averageratingscore_rf":4.25,
-        "pk_id":1728618,
-        "total_number_of_ratings_i":2,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jose",
-        "teacherlastname_t":"Cerna-Bazan"},
-         {
-        "averageratingscore_rf":4.67,
-        "pk_id":89414,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Katie",
-        "teacherlastname_t":"Sparling"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":540075,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Lefkowitz"},
-      {
-        "averageratingscore_rf":4.33,
-        "pk_id":905545,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Richard",
-        "teacherlastname_t":"Nau"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1258429,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Alison",
-        "teacherlastname_t":"Kettering"},
-      {
-        "averageratingscore_rf":1.67,
-        "pk_id":1332717,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Melissa",
-        "teacherlastname_t":"Whitler"},
-      {
-        "averageratingscore_rf":2.83,
-        "pk_id":1409093,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Diane",
-        "teacherlastname_t":"Nemec Ignashev"},
-      {
-        "averageratingscore_rf":4.67,
-        "pk_id":1461497,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Michael",
-        "teacherlastname_t":"Kowalewski"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":1477496,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Laura",
-        "teacherlastname_t":"Goering"},
-      {
-        "averageratingscore_rf":4.67,
-        "pk_id":1542819,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Diane",
-        "teacherlastname_t":"Pearsall"},
-      {
-        "averageratingscore_rf":4.67,
-        "pk_id":1609130,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Maria Elena",
-        "teacherlastname_t":"Doleman"},
-      {
-        "averageratingscore_rf":4.67,
-        "pk_id":1635405,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Ron",
-        "teacherlastname_t":"Rodman"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1683441,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kathryn",
-        "teacherlastname_t":"Steed"},
-      {
-        "averageratingscore_rf":4.33,
-        "pk_id":1736964,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Deborah",
-        "teacherlastname_t":"Gross"},
-      {
-        "averageratingscore_rf":4.83,
-        "pk_id":1751299,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kai",
-        "teacherlastname_t":"Herklotz"},
-      {
-        "averageratingscore_rf":3.33,
-        "pk_id":1816100,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sarah",
-        "teacherlastname_t":"Jansen"},
-      {
-        "averageratingscore_rf":4.67,
-        "pk_id":1842053,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Tommy",
-        "teacherlastname_t":"Occhipinti"},
-      {
-        "averageratingscore_rf":3.17,
-        "pk_id":1861932,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cassie",
-        "teacherlastname_t":"Martin-Wells"},
-      {
-        "averageratingscore_rf":2.0,
-        "pk_id":1940874,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Andrea",
-        "teacherlastname_t":"Robinson"},
-      {
-        "averageratingscore_rf":4.33,
-        "pk_id":1987158,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Andy",
-        "teacherlastname_t":"Exley"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":2004520,
-        "total_number_of_ratings_i":3,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Gregory",
-        "teacherlastname_t":"Smith"},
-         {
-        "averageratingscore_rf":5.0,
-        "pk_id":666107,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Clara",
-        "teacherlastname_t":"Hardy"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":851048,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Clark",
-        "teacherlastname_t":"Ohnesgorge"},
-      {
-        "averageratingscore_rf":2.75,
-        "pk_id":1198750,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cliff",
-        "teacherlastname_t":"Clark"},
-      {
-        "averageratingscore_rf":3.25,
-        "pk_id":1248500,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mary",
-        "teacherlastname_t":"Savina"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":1287695,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Michael",
-        "teacherlastname_t":"McNally"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1477495,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Yansi",
-        "teacherlastname_t":"Perez"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":1542658,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Constance",
-        "teacherlastname_t":"Walker"},
-      {
-        "averageratingscore_rf":4.4,
-        "pk_id":1580441,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jennifer",
-        "teacherlastname_t":"Wolff"},
-      {
-        "averageratingscore_rf":2.3,
-        "pk_id":1881485,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Will",
-        "teacherlastname_t":"Hollingsworth"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":2119377,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Ania",
-        "teacherlastname_t":"Lubowicz"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":2179817,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Eric",
-        "teacherlastname_t":"Alexander"},
-      {
-        "averageratingscore_rf":2.88,
-        "pk_id":1461302,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cherif",
-        "teacherlastname_t":"Keita"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":2118975,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sharon",
-        "teacherlastname_t":"Akimoto"},
-      {
-        "averageratingscore_rf":2.3,
-        "pk_id":2157805,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jeremy",
-        "teacherlastname_t":"DeAngelo"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1492495,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Ross",
-        "teacherlastname_t":"Elfline"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1761972,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Baird",
-        "teacherlastname_t":"Jarman"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1904894,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Chris",
-        "teacherlastname_t":"Calderone"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2282524,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Owen",
-        "teacherlastname_t":"Biesel"},
-      {
-        "averageratingscore_rf":2.25,
-        "pk_id":2261795,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Yaniv",
-        "teacherlastname_t":"Ben-Ami"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":2168739,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Liz",
-        "teacherlastname_t":"Sattler"},
-        {
-        "averageratingscore_rf":4.5,
-        "pk_id":1851041,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Paul",
-        "teacherlastname_t":"Petzschmann"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1882683,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Roger",
-        "teacherlastname_t":"Bechtel"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":1945130,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Alex",
-        "teacherlastname_t":"Knodell"},
-      {
-        "averageratingscore_rf":3.2,
-        "pk_id":2023753,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Eric",
-        "teacherlastname_t":"Hazlett"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":2057105,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Adam",
-        "teacherlastname_t":"Putnam"},
-      {
-        "averageratingscore_rf":4.1,
-        "pk_id":2059220,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Rob",
-        "teacherlastname_t":"Thompson"},
-      {
-        "averageratingscore_rf":4.9,
-        "pk_id":2145195,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Brian",
-        "teacherlastname_t":"Fuller"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":2149880,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Melanie",
-        "teacherlastname_t":"Freeze"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2168058,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kevin",
-        "teacherlastname_t":"Wolfe"},
-      {
-        "averageratingscore_rf":4.2,
-        "pk_id":1461496,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Arnab",
-        "teacherlastname_t":"Chakladar"},
-      {
-        "averageratingscore_rf":4.9,
-        "pk_id":1516245,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Daniel",
-        "teacherlastname_t":"Bruggeman"},
-      {
-        "averageratingscore_rf":3.9,
-        "pk_id":2022578,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Douglas",
-        "teacherlastname_t":"Marshall"},
-      {
-        "averageratingscore_rf":3.9,
-        "pk_id":2111375,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Layla",
-        "teacherlastname_t":"Oesper"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":2155858,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mariko",
-        "teacherlastname_t":"Kaga"},
-      {
-        "averageratingscore_rf":4.6,
-        "pk_id":1530320,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sarah",
-        "teacherlastname_t":"Titus"},
-      {
-        "averageratingscore_rf":2.9,
-        "pk_id":1461303,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Bereket",
-        "teacherlastname_t":"Haileab"},
-      {
-        "averageratingscore_rf":4.63,
-        "pk_id":133957,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kofi",
-        "teacherlastname_t":"Owusu"},
-      {
-        "averageratingscore_rf":3.38,
-        "pk_id":142751,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Chiara",
-        "teacherlastname_t":"Briganti"},
-      {
-        "averageratingscore_rf":4.38,
-        "pk_id":149297,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Annette",
-        "teacherlastname_t":"Igra"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":162179,
-        "total_number_of_ratings_i":4,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Phillip",
-        "teacherlastname_t":"Rhodes"},
-        {
-        "averageratingscore_rf":4.4,
-        "pk_id":1823527,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Victoria",
-        "teacherlastname_t":"Morse"},
-      {
-        "averageratingscore_rf":3.3,
-        "pk_id":1882606,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Anna",
-        "teacherlastname_t":"Moltchanova"},
-      {
-        "averageratingscore_rf":4.6,
-        "pk_id":1915945,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jay",
-        "teacherlastname_t":"Beck"},
-      {
-        "averageratingscore_rf":3.75,
-        "pk_id":1592313,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sarah",
-        "teacherlastname_t":"Meerts"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":2154863,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Frank",
-        "teacherlastname_t":"McNally"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":2033930,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Miaki",
-        "teacherlastname_t":"Habuka"},
-      {
-        "averageratingscore_rf":4.33,
-        "pk_id":2209118,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Wes",
-        "teacherlastname_t":"Markofski"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":1494339,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Thabiti",
-        "teacherlastname_t":"Willis"},
-      {
-        "averageratingscore_rf":2.58,
-        "pk_id":1477494,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Humberto",
-        "teacherlastname_t":"Huergo"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":275833,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Tina",
-        "teacherlastname_t":"Garrett"},
-      {
-        "averageratingscore_rf":4.4,
-        "pk_id":439999,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Noboru",
-        "teacherlastname_t":"Tomonari"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":538970,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Eva",
-        "teacherlastname_t":"Posfay"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":1007662,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Justin",
-        "teacherlastname_t":"London"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":1258425,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Carol",
-        "teacherlastname_t":"Rutz"},
-      {
-        "averageratingscore_rf":3.7,
-        "pk_id":1362153,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Wiles"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":1412828,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Daniel",
-        "teacherlastname_t":"Hernández"},
-      {
-        "averageratingscore_rf":3.1,
-        "pk_id":1542773,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Audrey",
-        "teacherlastname_t":"Russek"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":1696255,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Christine",
-        "teacherlastname_t":"Lac"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":1768251,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cindy",
-        "teacherlastname_t":"Blaha"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1847451,
-        "total_number_of_ratings_i":5,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mija",
-        "teacherlastname_t":"Van Der Wege"},
 {
-        "averageratingscore_rf":4.21,
-        "pk_id":1160918,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Michael",
-        "teacherlastname_t":"Burand"},
-      {
-        "averageratingscore_rf":4.43,
-        "pk_id":1229584,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"George",
-        "teacherlastname_t":"Vrtis"},
-      {
-        "averageratingscore_rf":4.6,
-        "pk_id":1468086,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sherri",
-        "teacherlastname_t":"Goings"},
-      {
-        "averageratingscore_rf":3.8,
-        "pk_id":1511074,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sam",
-        "teacherlastname_t":"Patterson"},
-      {
-        "averageratingscore_rf":4.9,
-        "pk_id":1683199,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Stacy",
-        "teacherlastname_t":"Beckwith"},
-      {
-        "averageratingscore_rf":4.6,
-        "pk_id":1768065,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Beatriz",
-        "teacherlastname_t":"Pariente-Beltran"},
-      {
-        "averageratingscore_rf":4.71,
-        "pk_id":1801401,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Bruce",
-        "teacherlastname_t":"Wambheim"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":1861929,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Anita",
-        "teacherlastname_t":"Chikkatur"},
-      {
-        "averageratingscore_rf":4.4,
-        "pk_id":2126268,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Peri",
-        "teacherlastname_t":"Shereen"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":2168055,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jeff",
-        "teacherlastname_t":"Snyder"},
-      {
-        "averageratingscore_rf":2.0,
-        "pk_id":2017131,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Claudia",
-        "teacherlastname_t":"Lange"},
-      {
-        "averageratingscore_rf":4.75,
-        "pk_id":142756,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Frank",
-        "teacherlastname_t":"Morral"},
-      {
-        "averageratingscore_rf":3.9,
-        "pk_id":230046,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Susannah",
-        "teacherlastname_t":"Ottaway"},
-      {
-        "averageratingscore_rf":4.17,
-        "pk_id":440003,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Fernan",
-        "teacherlastname_t":"Jaramillo"},
-      {
-        "averageratingscore_rf":4.25,
-        "pk_id":1097993,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Nader",
-        "teacherlastname_t":"Saiedi"},
-      {
-        "averageratingscore_rf":4.58,
-        "pk_id":1143179,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Alex",
-        "teacherlastname_t":"Freeman"},
-      {
-        "averageratingscore_rf":4.08,
-        "pk_id":1258423,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Raka",
-        "teacherlastname_t":"Mitra"},
-      {
-        "averageratingscore_rf":3.67,
-        "pk_id":1408097,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Roger",
-        "teacherlastname_t":"Paas"},
-      {
-        "averageratingscore_rf":3.9,
-        "pk_id":1580080,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Timothy",
-        "teacherlastname_t":"Raylor"},
-      {
-        "averageratingscore_rf":3.3,
-        "pk_id":1795195,
-        "total_number_of_ratings_i":6,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Gail",
-        "teacherlastname_t":"Nelson"},
+    "ratings": [{
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2187750,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mar",
+            "teacherlastname_t": "Valdecantos"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2225528,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Russ",
+            "teacherlastname_t": "Petricka"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2233630,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Steven",
+            "teacherlastname_t": "Kozberg"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2238233,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kao",
+            "teacherlastname_t": "Yang"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2192075,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Austin",
+            "teacherlastname_t": "Mason"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2261796,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Ethan",
+            "teacherlastname_t": "Struby"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2282526,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Rika",
+            "teacherlastname_t": "Anderson"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1620054,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Hougen"
+        }, {
+            "averageratingscore_rf": 2.0,
+            "pk_id": 2289235,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Zheng",
+            "teacherlastname_t": "Wen"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2232391,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Zaki",
+            "teacherlastname_t": "Haidar"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2168155,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Megan",
+            "teacherlastname_t": "Sarno"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 2283918,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Allison",
+            "teacherlastname_t": "Murphy"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 851052,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Catherine",
+            "teacherlastname_t": "Reinke"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1099678,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Deborah",
+            "teacherlastname_t": "Appleman"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1259946,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Stephen",
+            "teacherlastname_t": "Kelly"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1413348,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jorge",
+            "teacherlastname_t": "Bravo"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1461315,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cynthia",
+            "teacherlastname_t": "Shearer"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 1463052,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Susan",
+            "teacherlastname_t": "Singer"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1477501,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Avaren",
+            "teacherlastname_t": "Ipsen"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1482955,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jim",
+            "teacherlastname_t": "McDonnell"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1619096,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "John",
+            "teacherlastname_t": "Ellinger"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1619668,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jorge",
+            "teacherlastname_t": "Brioso"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1725672,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Gretchen",
+            "teacherlastname_t": "Hofmeister"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1728621,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Amy",
+            "teacherlastname_t": "Moore"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 1753775,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Laska",
+            "teacherlastname_t": "Jimsen"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 1761501,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sara",
+            "teacherlastname_t": "Gonzalez"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1822137,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Joseph",
+            "teacherlastname_t": "Paxton"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 2148785,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Annie",
+            "teacherlastname_t": "Bosacker"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2162708,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Melissa",
+            "teacherlastname_t": "Eblen-Zayas"
+        }, {
+            "averageratingscore_rf": 1.0,
+            "pk_id": 2168091,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Janell",
+            "teacherlastname_t": "Rothenberg"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2175135,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Hans",
+            "teacherlastname_t": "Wietzke"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2180641,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Stephen",
+            "teacherlastname_t": "Lewis"
+        },
+
         {
-        "averageratingscore_rf":5.0,
-        "pk_id":1461300,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Adriana",
-        "teacherlastname_t":"Estill"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1461313,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jason",
-        "teacherlastname_t":"Decker"},
-      {
-        "averageratingscore_rf":4.94,
-        "pk_id":1492498,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kathleen",
-        "teacherlastname_t":"Ryor"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":1681444,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Stephanie",
-        "teacherlastname_t":"Cox"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":1789806,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Deanna",
-        "teacherlastname_t":"Haunsperger"},
-      {
-        "averageratingscore_rf":3.8,
-        "pk_id":1848646,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Martha",
-        "teacherlastname_t":"Paas"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2179387,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sonja",
-        "teacherlastname_t":"Anderson"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1461498,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Elizabeth",
-        "teacherlastname_t":"McKinsey"},
-      {
-        "averageratingscore_rf":3.56,
-        "pk_id":916143,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Radek",
-        "teacherlastname_t":"Szulga"},
-      {
-        "averageratingscore_rf":4.2,
-        "pk_id":1491053,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Andrew",
-        "teacherlastname_t":"Fisher"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1201821,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Daniela",
-        "teacherlastname_t":"Kohen"},
-      {
-        "averageratingscore_rf":3.71,
-        "pk_id":133948,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Roy",
-        "teacherlastname_t":"Elveton"},
-      {
-        "averageratingscore_rf":4.57,
-        "pk_id":142763,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mike",
-        "teacherlastname_t":"Hemesath"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":149325,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Pamela",
-        "teacherlastname_t":"Feldman-Savelsberg"},
-      {
-        "averageratingscore_rf":3.07,
-        "pk_id":162181,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Becky",
-        "teacherlastname_t":"Boling"},
-      {
-        "averageratingscore_rf":3.57,
-        "pk_id":501142,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Roy",
-        "teacherlastname_t":"Grow"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":576535,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Silvia",
-        "teacherlastname_t":"Lopez"},
-      {
-        "averageratingscore_rf":4.86,
-        "pk_id":837238,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Steven",
-        "teacherlastname_t":"Drew"},
-      {
-        "averageratingscore_rf":2.86,
-        "pk_id":855370,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Steve",
-        "teacherlastname_t":"Strand"},
-      {
-        "averageratingscore_rf":4.21,
-        "pk_id":905549,
-        "total_number_of_ratings_i":7,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Carol",
-        "teacherlastname_t":"Donelan"},
-        {
-        "averageratingscore_rf":3.33,
-        "pk_id":133971,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Hector",
-        "teacherlastname_t":"Valdivia"},
-      {
-        "averageratingscore_rf":4.83,
-        "pk_id":538971,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Scott",
-        "teacherlastname_t":"Carpenter"},
-      {
-        "averageratingscore_rf":3.67,
-        "pk_id":1201112,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Stephen",
-        "teacherlastname_t":"Kennedy"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":1358748,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Nancy",
-        "teacherlastname_t":"Cho"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":1461314,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Daniel",
-        "teacherlastname_t":"Groll"},
-      {
-        "averageratingscore_rf":3.6,
-        "pk_id":1463051,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Sarah",
-        "teacherlastname_t":"Deel"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1737910,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Matt",
-        "teacherlastname_t":"Whited"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":1933552,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Gregory ",
-        "teacherlastname_t":"Hewett"},
-      {
-        "averageratingscore_rf":4.1,
-        "pk_id":567680,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Stephan",
-        "teacherlastname_t":"Zweifel"},
-      {
-        "averageratingscore_rf":3.83,
-        "pk_id":2126269,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Katie",
-        "teacherlastname_t":"St. Clair"},
-      {
-        "averageratingscore_rf":4.4,
-        "pk_id":1464444,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Musicant"},
-      {
-        "averageratingscore_rf":3.9,
-        "pk_id":1696862,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Amna",
-        "teacherlastname_t":"Khalid"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2001606,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Constanza",
-        "teacherlastname_t":"Ocampo-Raeder"},
-      {
-        "averageratingscore_rf":2.9,
-        "pk_id":2156237,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Josh",
-        "teacherlastname_t":"Davis"},
-      {
-        "averageratingscore_rf":2.5,
-        "pk_id":1752607,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Tsegaye",
-        "teacherlastname_t":"Nega"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":538973,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cathy",
-        "teacherlastname_t":"Yandell"},
-      {
-        "averageratingscore_rf":3.69,
-        "pk_id":149196,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Diethelm",
-        "teacherlastname_t":"Prowe"},
-      {
-        "averageratingscore_rf":4.56,
-        "pk_id":261878,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Roger",
-        "teacherlastname_t":"Jackson|"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":1313350,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Bill",
-        "teacherlastname_t":"Titus"},
-      {
-        "averageratingscore_rf":3.9,
-        "pk_id":1418351,
-        "total_number_of_ratings_i":8,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Bob",
-        "teacherlastname_t":"Dobrow"},
-         {
-        "averageratingscore_rf":3.5,
-        "pk_id":459018,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Joel",
-        "teacherlastname_t":"Weisberg"},
-      {
-        "averageratingscore_rf":3.4,
-        "pk_id":1994718,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kristin",
-        "teacherlastname_t":"Bloomer"},
-      {
-        "averageratingscore_rf":4.09,
-        "pk_id":440004,
-        "total_number_of_ratings_i":11,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"John",
-        "teacherlastname_t":"Tymoczko"},
-      {
-        "averageratingscore_rf":4.41,
-        "pk_id":480991,
-        "total_number_of_ratings_i":11,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cameron",
-        "teacherlastname_t":"Davidson"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":1477497,
-        "total_number_of_ratings_i":11,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mark",
-        "teacherlastname_t":"McKone"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1814091,
-        "total_number_of_ratings_i":11,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Liz",
-        "teacherlastname_t":"Raleigh"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":2020834,
-        "total_number_of_ratings_i":11,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Asuka",
-        "teacherlastname_t":"Sango"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1638013,
-        "total_number_of_ratings_i":11,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Alberg"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":2058591,
-        "total_number_of_ratings_i":11,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Greg",
-        "teacherlastname_t":"Marfleet"},
-      {
-        "averageratingscore_rf":4.35,
-        "pk_id":162180,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Chico",
-        "teacherlastname_t":"Zimmerman"},
-      {
-        "averageratingscore_rf":4.9,
-        "pk_id":204320,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"George",
-        "teacherlastname_t":"Shuffelton"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":365872,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Appleyard"},
-      {
-        "averageratingscore_rf":3.9,
-        "pk_id":1542589,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Marty",
-        "teacherlastname_t":"Baylor"},
-      {
-        "averageratingscore_rf":4.2,
-        "pk_id":1547958,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Linda",
-        "teacherlastname_t":"Burdell"},
-      {
-        "averageratingscore_rf":2.8,
-        "pk_id":1768064,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Andrew",
-        "teacherlastname_t":"Gainer-Dewar"},
-      {
-        "averageratingscore_rf":4.9,
-        "pk_id":1799687,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Julia",
-        "teacherlastname_t":"Strand"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":2108435,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kent",
-        "teacherlastname_t":"Freeze"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":142746,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Susan",
-        "teacherlastname_t":"Jaret-Mckinstry"},
-      {
-        "averageratingscore_rf":3.7,
-        "pk_id":2174718,
-        "total_number_of_ratings_i":10,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Bruce",
-        "teacherlastname_t":"Dalgaard"},
-      {
-        "averageratingscore_rf":4.56,
-        "pk_id":89420,
-        "total_number_of_ratings_i":9,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Lawrence",
-        "teacherlastname_t":"Archbold"},
-         {
-        "averageratingscore_rf":3.3,
-        "pk_id":846750,
-        "total_number_of_ratings_i":15,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Julie",
-        "teacherlastname_t":"Neiworth"},
-      {
-        "averageratingscore_rf":2.8,
-        "pk_id":1987995,
-        "total_number_of_ratings_i":15,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Ben",
-        "teacherlastname_t":"Keefer"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1439832,
-        "total_number_of_ratings_i":15,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Eric",
-        "teacherlastname_t":"Egge"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":143395,
-        "total_number_of_ratings_i":14,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Larry",
-        "teacherlastname_t":"Wichlinski"},
-      {
-        "averageratingscore_rf":4.1,
-        "pk_id":1158115,
-        "total_number_of_ratings_i":14,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Neil",
-        "teacherlastname_t":"Lutsky"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1645524,
-        "total_number_of_ratings_i":14,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Helen",
-        "teacherlastname_t":"Wong"},
-      {
-        "averageratingscore_rf":2.8,
-        "pk_id":739999,
-        "total_number_of_ratings_i":14,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Amy",
-        "teacherlastname_t":"Csizmar Dalal"},
-      {
-        "averageratingscore_rf":4.12,
-        "pk_id":52000,
-        "total_number_of_ratings_i":13,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Matt",
-        "teacherlastname_t":"Rand"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":234761,
-        "total_number_of_ratings_i":13,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Andrew",
-        "teacherlastname_t":"Flory"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":1350697,
-        "total_number_of_ratings_i":13,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Palmar",
-        "teacherlastname_t":"Alvarez-Blanco"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":2055355,
-        "total_number_of_ratings_i":13,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Anna",
-        "teacherlastname_t":"Rafferty"},
-      {
-        "averageratingscore_rf":4.6,
-        "pk_id":1191919,
-        "total_number_of_ratings_i":13,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jessica",
-        "teacherlastname_t":"Leiman"},
-      {
-        "averageratingscore_rf":4.1,
-        "pk_id":339167,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Barbara",
-        "teacherlastname_t":"Allen"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":426190,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Peter",
-        "teacherlastname_t":"Balaam"},
-      {
-        "averageratingscore_rf":3.6,
-        "pk_id":437573,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jeff",
-        "teacherlastname_t":"Ondich"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1542602,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Noah",
-        "teacherlastname_t":"Salomon"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1884268,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Tompkins"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1164926,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Laurence",
-        "teacherlastname_t":"Cooper"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":133942,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Melinda",
-        "teacherlastname_t":"Russell"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":1987508,
-        "total_number_of_ratings_i":12,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Prathi",
-        "teacherlastname_t":"Seneviratne"},
-        {
-        "averageratingscore_rf":4.3,
-        "pk_id":310617,
-        "total_number_of_ratings_i":19,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mark",
-        "teacherlastname_t":"Hansell"},
-      {
-        "averageratingscore_rf":4.84,
-        "pk_id":1461312,
-        "total_number_of_ratings_i":19,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Shana",
-        "teacherlastname_t":"Sippy"},
-      {
-        "averageratingscore_rf":2.6,
-        "pk_id":2149879,
-        "total_number_of_ratings_i":19,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Bryan",
-        "teacherlastname_t":"Daves"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":1858384,
-        "total_number_of_ratings_i":19,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cati",
-        "teacherlastname_t":"Fortin"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":2155857,
-        "total_number_of_ratings_i":19,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jed",
-        "teacherlastname_t":"Yang"},
-      {
-        "averageratingscore_rf":4.0,
-        "pk_id":1583527,
-        "total_number_of_ratings_i":19,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Aaron",
-        "teacherlastname_t":"Swoboda"},
-      {
-        "averageratingscore_rf":4.8,
-        "pk_id":1254990,
-        "total_number_of_ratings_i":18,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Dev",
-        "teacherlastname_t":"Gupta"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":134890,
-        "total_number_of_ratings_i":18,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kathleen",
-        "teacherlastname_t":"Galotti"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":234632,
-        "total_number_of_ratings_i":17,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Clint",
-        "teacherlastname_t":"Cowan"},
-      {
-        "averageratingscore_rf":4.2,
-        "pk_id":637276,
-        "total_number_of_ratings_i":16,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Kim",
-        "teacherlastname_t":"Smith"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":2157183,
-        "total_number_of_ratings_i":16,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Shane",
-        "teacherlastname_t":"Auerbach"},
-      {
-        "averageratingscore_rf":4.4,
-        "pk_id":1259347,
-        "total_number_of_ratings_i":16,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Ken",
-        "teacherlastname_t":"Abrams"},
-      {
-        "averageratingscore_rf":1.25,
-        "pk_id":2167837,
-        "total_number_of_ratings_i":16,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Theresa",
-        "teacherlastname_t":"Bauer"},
-      {
-        "averageratingscore_rf":4.5,
-        "pk_id":149304,
-        "total_number_of_ratings_i":16,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Laura",
-        "teacherlastname_t":"Chihara"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":1546634,
-        "total_number_of_ratings_i":16,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Faress",
-        "teacherlastname_t":"Bhuiyan"},
-      {
-        "averageratingscore_rf":3.1,
-        "pk_id":149299,
-        "total_number_of_ratings_i":15,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Annette",
-        "teacherlastname_t":"Nierobisz"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":310615,
-        "total_number_of_ratings_i":15,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Harry",
-        "teacherlastname_t":"Williams"},
-      {
-        "averageratingscore_rf":4.6,
-        "pk_id":1376704,
-        "total_number_of_ratings_i":15,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"David",
-        "teacherlastname_t":"Liben-Nowell"},
-      {
-        "averageratingscore_rf":4.4,
-        "pk_id":2052080,
-        "total_number_of_ratings_i":15,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Cherlon",
-        "teacherlastname_t":"Ussery"},
-      {
-        "averageratingscore_rf":4.4,
-        "pk_id":2167969,
-        "total_number_of_ratings_i":15,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jonathan",
-        "teacherlastname_t":"Lafky"},
-         {
-        "averageratingscore_rf":4.8,
-        "pk_id":1196288,
-        "total_number_of_ratings_i":35,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jenny",
-        "teacherlastname_t":"Bourne"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":1461317,
-        "total_number_of_ratings_i":32,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Jay",
-        "teacherlastname_t":"Levi"},
-      {
-        "averageratingscore_rf":5.0,
-        "pk_id":158255,
-        "total_number_of_ratings_i":27,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Bill",
-        "teacherlastname_t":"North"},
-      {
-        "averageratingscore_rf":2.0,
-        "pk_id":133564,
-        "total_number_of_ratings_i":26,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Lawrence",
-        "teacherlastname_t":"Burnett"},
-      {
-        "averageratingscore_rf":3.4,
-        "pk_id":562054,
-        "total_number_of_ratings_i":26,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Nathan",
-        "teacherlastname_t":"Grawe"},
-      {
-        "averageratingscore_rf":4.7,
-        "pk_id":779826,
-        "total_number_of_ratings_i":26,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Pierre",
-        "teacherlastname_t":"Hecker"},
-      {
-        "averageratingscore_rf":2.6,
-        "pk_id":310616,
-        "total_number_of_ratings_i":24,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mike",
-        "teacherlastname_t":"Flynn"},
-      {
-        "averageratingscore_rf":3.0,
-        "pk_id":339170,
-        "total_number_of_ratings_i":23,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Richard",
-        "teacherlastname_t":"Keiser"},
-      {
-        "averageratingscore_rf":4.3,
-        "pk_id":1546637,
-        "total_number_of_ratings_i":23,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mihaela",
-        "teacherlastname_t":"Czobor-Lupp"},
-      {
-        "averageratingscore_rf":3.5,
-        "pk_id":1654916,
-        "total_number_of_ratings_i":22,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Tun",
-        "teacherlastname_t":"Myint"},
-      {
-        "averageratingscore_rf":4.4,
-        "pk_id":616304,
-        "total_number_of_ratings_i":21,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Steven",
-        "teacherlastname_t":"Schier"},
-      {
-        "averageratingscore_rf":3.43,
-        "pk_id":836267,
-        "total_number_of_ratings_i":21,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Pavel",
-        "teacherlastname_t":"Kapinos"},
-      {
-        "averageratingscore_rf":2.8,
-        "pk_id":1987450,
-        "total_number_of_ratings_i":21,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mark",
-        "teacherlastname_t":"Kanazawa"},
-      {
-        "averageratingscore_rf":4.2,
-        "pk_id":1996078,
-        "total_number_of_ratings_i":21,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Hicham",
-        "teacherlastname_t":"Nassif"},
-      {
-        "averageratingscore_rf":4.71,
-        "pk_id":1756424,
-        "total_number_of_ratings_i":21,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Rafe",
-        "teacherlastname_t":"Jones"},
-      {
-        "averageratingscore_rf":4.75,
-        "pk_id":892531,
-        "total_number_of_ratings_i":20,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Al",
-        "teacherlastname_t":"Montero"},
-      {
-        "averageratingscore_rf":2.2,
-        "pk_id":1278354,
-        "total_number_of_ratings_i":20,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Seungjoo",
-        "teacherlastname_t":"Yoon"},
-      {
-        "averageratingscore_rf":3.8,
-        "pk_id":2056553,
-        "total_number_of_ratings_i":20,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Stephie",
-        "teacherlastname_t":"Fried"},
-      {
-        "averageratingscore_rf":4.6,
-        "pk_id":890186,
-        "total_number_of_ratings_i":20,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Mark",
-        "teacherlastname_t":"Krusemeyer"},
-      {
-        "averageratingscore_rf":2.7,
-        "pk_id":2159813,
-        "total_number_of_ratings_i":20,
-        "schoolid_s":"179",
-        "teacherfirstname_t":"Andy",
-        "teacherlastname_t":"Poppick"}
-]};
+            "averageratingscore_rf": 4.0,
+            "pk_id": 1805876,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Daniel",
+            "teacherlastname_t": "Williams"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 1831719,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jack",
+            "teacherlastname_t": "Goldfeather"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 1985078,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Nelson",
+            "teacherlastname_t": "Christensen"
+        }, {
+            "averageratingscore_rf": 2.5,
+            "pk_id": 1988024,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jadrian",
+            "teacherlastname_t": "Miles"
+        }, {
+            "averageratingscore_rf": 1.75,
+            "pk_id": 2020571,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jalean",
+            "teacherlastname_t": "Petricka"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2075881,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Steven",
+            "teacherlastname_t": "Poskanzer"
+        }, {
+            "averageratingscore_rf": 4.75,
+            "pk_id": 2114225,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Juliane",
+            "teacherlastname_t": "Schicker"
+        }, {
+            "averageratingscore_rf": 3.8,
+            "pk_id": 2119233,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Lauren",
+            "teacherlastname_t": "Milne"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 2149907,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Andrea",
+            "teacherlastname_t": "Mazzariello"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 2168057,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kathryn",
+            "teacherlastname_t": "Wegner"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2194956,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sandra",
+            "teacherlastname_t": "Rousseau"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 2234807,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jay",
+            "teacherlastname_t": "Tasson"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2238204,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Adam",
+            "teacherlastname_t": "Loy"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 2255107,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Ashley",
+            "teacherlastname_t": "Smith"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 2021862,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Liz",
+            "teacherlastname_t": "Ciner"
+        }, {
+            "averageratingscore_rf": 1.0,
+            "pk_id": 2168740,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Rita",
+            "teacherlastname_t": "Thompson"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 2192355,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Catherine",
+            "teacherlastname_t": "Licata"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2261793,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Blake",
+            "teacherlastname_t": "Howald"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 2231058,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Christina",
+            "teacherlastname_t": "Farhart"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 725944,
+            "total_number_of_ratings_i": 1,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Karina",
+            "teacherlastname_t": "Eileraas"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 2173863,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Maurella",
+            "teacherlastname_t": "Cunningham"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2220883,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Janet",
+            "teacherlastname_t": "Polasky"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2235551,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Medeiros"
+        }, {
+            "averageratingscore_rf": 3.7,
+            "pk_id": 2239092,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jessica",
+            "teacherlastname_t": "Keating"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2155889,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Fernando",
+            "teacherlastname_t": "Contreras"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1463053,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Debbie",
+            "teacherlastname_t": "Walser-Kuntz"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 2295878,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "George",
+            "teacherlastname_t": "Cusack"
+        }, {
+            "averageratingscore_rf": 4.25,
+            "pk_id": 17166,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Qiguang",
+            "teacherlastname_t": "Zhao"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 310618,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jennifer",
+            "teacherlastname_t": "Manion"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 430125,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Theo",
+            "teacherlastname_t": "Cateforis"
+        }, {
+            "averageratingscore_rf": 4.75,
+            "pk_id": 576521,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Adeeb",
+            "teacherlastname_t": "Khalid"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 576529,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Lori",
+            "teacherlastname_t": "Pearson"
+        }, {
+            "averageratingscore_rf": 4.25,
+            "pk_id": 576540,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Dana",
+            "teacherlastname_t": "Strand"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 653145,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Steve",
+            "teacherlastname_t": "Parker"
+        }, {
+            "averageratingscore_rf": 4.75,
+            "pk_id": 685202,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Rudolph",
+            "teacherlastname_t": "Byrd"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 851050,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Caroline",
+            "teacherlastname_t": "Burke"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 1194901,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Julie",
+            "teacherlastname_t": "Klassen"
+        }, {
+            "averageratingscore_rf": 2.0,
+            "pk_id": 1210629,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Liz",
+            "teacherlastname_t": "Coville"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1643929,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Meera",
+            "teacherlastname_t": "Sehgal"
+        }, {
+            "averageratingscore_rf": 4.25,
+            "pk_id": 1728618,
+            "total_number_of_ratings_i": 2,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jose",
+            "teacherlastname_t": "Cerna-Bazan"
+        }, {
+            "averageratingscore_rf": 4.67,
+            "pk_id": 89414,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Katie",
+            "teacherlastname_t": "Sparling"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 540075,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Lefkowitz"
+        }, {
+            "averageratingscore_rf": 4.33,
+            "pk_id": 905545,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Richard",
+            "teacherlastname_t": "Nau"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1258429,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Alison",
+            "teacherlastname_t": "Kettering"
+        }, {
+            "averageratingscore_rf": 1.67,
+            "pk_id": 1332717,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Melissa",
+            "teacherlastname_t": "Whitler"
+        }, {
+            "averageratingscore_rf": 2.83,
+            "pk_id": 1409093,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Diane",
+            "teacherlastname_t": "Nemec Ignashev"
+        }, {
+            "averageratingscore_rf": 4.67,
+            "pk_id": 1461497,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Michael",
+            "teacherlastname_t": "Kowalewski"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 1477496,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Laura",
+            "teacherlastname_t": "Goering"
+        }, {
+            "averageratingscore_rf": 4.67,
+            "pk_id": 1542819,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Diane",
+            "teacherlastname_t": "Pearsall"
+        }, {
+            "averageratingscore_rf": 4.67,
+            "pk_id": 1609130,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Maria Elena",
+            "teacherlastname_t": "Doleman"
+        }, {
+            "averageratingscore_rf": 4.67,
+            "pk_id": 1635405,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Ron",
+            "teacherlastname_t": "Rodman"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1683441,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kathryn",
+            "teacherlastname_t": "Steed"
+        }, {
+            "averageratingscore_rf": 4.33,
+            "pk_id": 1736964,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Deborah",
+            "teacherlastname_t": "Gross"
+        }, {
+            "averageratingscore_rf": 4.83,
+            "pk_id": 1751299,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kai",
+            "teacherlastname_t": "Herklotz"
+        }, {
+            "averageratingscore_rf": 3.33,
+            "pk_id": 1816100,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sarah",
+            "teacherlastname_t": "Jansen"
+        }, {
+            "averageratingscore_rf": 4.67,
+            "pk_id": 1842053,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Tommy",
+            "teacherlastname_t": "Occhipinti"
+        }, {
+            "averageratingscore_rf": 3.17,
+            "pk_id": 1861932,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cassie",
+            "teacherlastname_t": "Martin-Wells"
+        }, {
+            "averageratingscore_rf": 2.0,
+            "pk_id": 1940874,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Andrea",
+            "teacherlastname_t": "Robinson"
+        }, {
+            "averageratingscore_rf": 4.33,
+            "pk_id": 1987158,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Andy",
+            "teacherlastname_t": "Exley"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 2004520,
+            "total_number_of_ratings_i": 3,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Gregory",
+            "teacherlastname_t": "Smith"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 666107,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Clara",
+            "teacherlastname_t": "Hardy"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 851048,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Clark",
+            "teacherlastname_t": "Ohnesgorge"
+        }, {
+            "averageratingscore_rf": 2.75,
+            "pk_id": 1198750,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cliff",
+            "teacherlastname_t": "Clark"
+        }, {
+            "averageratingscore_rf": 3.25,
+            "pk_id": 1248500,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mary",
+            "teacherlastname_t": "Savina"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 1287695,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Michael",
+            "teacherlastname_t": "McNally"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1477495,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Yansi",
+            "teacherlastname_t": "Perez"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 1542658,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Constance",
+            "teacherlastname_t": "Walker"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 1580441,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jennifer",
+            "teacherlastname_t": "Wolff"
+        }, {
+            "averageratingscore_rf": 2.3,
+            "pk_id": 1881485,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Will",
+            "teacherlastname_t": "Hollingsworth"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 2119377,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Ania",
+            "teacherlastname_t": "Lubowicz"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 2179817,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Eric",
+            "teacherlastname_t": "Alexander"
+        }, {
+            "averageratingscore_rf": 2.88,
+            "pk_id": 1461302,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cherif",
+            "teacherlastname_t": "Keita"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 2118975,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sharon",
+            "teacherlastname_t": "Akimoto"
+        }, {
+            "averageratingscore_rf": 2.3,
+            "pk_id": 2157805,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jeremy",
+            "teacherlastname_t": "DeAngelo"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1492495,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Ross",
+            "teacherlastname_t": "Elfline"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1761972,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Baird",
+            "teacherlastname_t": "Jarman"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1904894,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Chris",
+            "teacherlastname_t": "Calderone"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2282524,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Owen",
+            "teacherlastname_t": "Biesel"
+        }, {
+            "averageratingscore_rf": 2.25,
+            "pk_id": 2261795,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Yaniv",
+            "teacherlastname_t": "Ben-Ami"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 2168739,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Liz",
+            "teacherlastname_t": "Sattler"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1851041,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Paul",
+            "teacherlastname_t": "Petzschmann"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1882683,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Roger",
+            "teacherlastname_t": "Bechtel"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 1945130,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Alex",
+            "teacherlastname_t": "Knodell"
+        }, {
+            "averageratingscore_rf": 3.2,
+            "pk_id": 2023753,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Eric",
+            "teacherlastname_t": "Hazlett"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 2057105,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Adam",
+            "teacherlastname_t": "Putnam"
+        }, {
+            "averageratingscore_rf": 4.1,
+            "pk_id": 2059220,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Rob",
+            "teacherlastname_t": "Thompson"
+        }, {
+            "averageratingscore_rf": 4.9,
+            "pk_id": 2145195,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Brian",
+            "teacherlastname_t": "Fuller"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 2149880,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Melanie",
+            "teacherlastname_t": "Freeze"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2168058,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kevin",
+            "teacherlastname_t": "Wolfe"
+        }, {
+            "averageratingscore_rf": 4.2,
+            "pk_id": 1461496,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Arnab",
+            "teacherlastname_t": "Chakladar"
+        }, {
+            "averageratingscore_rf": 4.9,
+            "pk_id": 1516245,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Daniel",
+            "teacherlastname_t": "Bruggeman"
+        }, {
+            "averageratingscore_rf": 3.9,
+            "pk_id": 2022578,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Douglas",
+            "teacherlastname_t": "Marshall"
+        }, {
+            "averageratingscore_rf": 3.9,
+            "pk_id": 2111375,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Layla",
+            "teacherlastname_t": "Oesper"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 2155858,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mariko",
+            "teacherlastname_t": "Kaga"
+        }, {
+            "averageratingscore_rf": 4.6,
+            "pk_id": 1530320,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sarah",
+            "teacherlastname_t": "Titus"
+        }, {
+            "averageratingscore_rf": 2.9,
+            "pk_id": 1461303,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Bereket",
+            "teacherlastname_t": "Haileab"
+        }, {
+            "averageratingscore_rf": 4.63,
+            "pk_id": 133957,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kofi",
+            "teacherlastname_t": "Owusu"
+        }, {
+            "averageratingscore_rf": 3.38,
+            "pk_id": 142751,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Chiara",
+            "teacherlastname_t": "Briganti"
+        }, {
+            "averageratingscore_rf": 4.38,
+            "pk_id": 149297,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Annette",
+            "teacherlastname_t": "Igra"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 162179,
+            "total_number_of_ratings_i": 4,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Phillip",
+            "teacherlastname_t": "Rhodes"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 1823527,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Victoria",
+            "teacherlastname_t": "Morse"
+        }, {
+            "averageratingscore_rf": 3.3,
+            "pk_id": 1882606,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Anna",
+            "teacherlastname_t": "Moltchanova"
+        }, {
+            "averageratingscore_rf": 4.6,
+            "pk_id": 1915945,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jay",
+            "teacherlastname_t": "Beck"
+        }, {
+            "averageratingscore_rf": 3.75,
+            "pk_id": 1592313,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sarah",
+            "teacherlastname_t": "Meerts"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 2154863,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Frank",
+            "teacherlastname_t": "McNally"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 2033930,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Miaki",
+            "teacherlastname_t": "Habuka"
+        }, {
+            "averageratingscore_rf": 4.33,
+            "pk_id": 2209118,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Wes",
+            "teacherlastname_t": "Markofski"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 1494339,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Thabiti",
+            "teacherlastname_t": "Willis"
+        }, {
+            "averageratingscore_rf": 2.58,
+            "pk_id": 1477494,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Humberto",
+            "teacherlastname_t": "Huergo"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 275833,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Tina",
+            "teacherlastname_t": "Garrett"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 439999,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Noboru",
+            "teacherlastname_t": "Tomonari"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 538970,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Eva",
+            "teacherlastname_t": "Posfay"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 1007662,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Justin",
+            "teacherlastname_t": "London"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 1258425,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Carol",
+            "teacherlastname_t": "Rutz"
+        }, {
+            "averageratingscore_rf": 3.7,
+            "pk_id": 1362153,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Wiles"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 1412828,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Daniel",
+            "teacherlastname_t": "Hernández"
+        }, {
+            "averageratingscore_rf": 3.1,
+            "pk_id": 1542773,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Audrey",
+            "teacherlastname_t": "Russek"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 1696255,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Christine",
+            "teacherlastname_t": "Lac"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 1768251,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cindy",
+            "teacherlastname_t": "Blaha"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1847451,
+            "total_number_of_ratings_i": 5,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mija",
+            "teacherlastname_t": "Van Der Wege"
+        }, {
+            "averageratingscore_rf": 4.21,
+            "pk_id": 1160918,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Michael",
+            "teacherlastname_t": "Burand"
+        }, {
+            "averageratingscore_rf": 4.43,
+            "pk_id": 1229584,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "George",
+            "teacherlastname_t": "Vrtis"
+        }, {
+            "averageratingscore_rf": 4.6,
+            "pk_id": 1468086,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sherri",
+            "teacherlastname_t": "Goings"
+        }, {
+            "averageratingscore_rf": 3.8,
+            "pk_id": 1511074,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sam",
+            "teacherlastname_t": "Patterson"
+        }, {
+            "averageratingscore_rf": 4.9,
+            "pk_id": 1683199,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Stacy",
+            "teacherlastname_t": "Beckwith"
+        }, {
+            "averageratingscore_rf": 4.6,
+            "pk_id": 1768065,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Beatriz",
+            "teacherlastname_t": "Pariente-Beltran"
+        }, {
+            "averageratingscore_rf": 4.71,
+            "pk_id": 1801401,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Bruce",
+            "teacherlastname_t": "Wambheim"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 1861929,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Anita",
+            "teacherlastname_t": "Chikkatur"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 2126268,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Peri",
+            "teacherlastname_t": "Shereen"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 2168055,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jeff",
+            "teacherlastname_t": "Snyder"
+        }, {
+            "averageratingscore_rf": 2.0,
+            "pk_id": 2017131,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Claudia",
+            "teacherlastname_t": "Lange"
+        }, {
+            "averageratingscore_rf": 4.75,
+            "pk_id": 142756,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Frank",
+            "teacherlastname_t": "Morral"
+        }, {
+            "averageratingscore_rf": 3.9,
+            "pk_id": 230046,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Susannah",
+            "teacherlastname_t": "Ottaway"
+        }, {
+            "averageratingscore_rf": 4.17,
+            "pk_id": 440003,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Fernan",
+            "teacherlastname_t": "Jaramillo"
+        }, {
+            "averageratingscore_rf": 4.25,
+            "pk_id": 1097993,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Nader",
+            "teacherlastname_t": "Saiedi"
+        }, {
+            "averageratingscore_rf": 4.58,
+            "pk_id": 1143179,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Alex",
+            "teacherlastname_t": "Freeman"
+        }, {
+            "averageratingscore_rf": 4.08,
+            "pk_id": 1258423,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Raka",
+            "teacherlastname_t": "Mitra"
+        }, {
+            "averageratingscore_rf": 3.67,
+            "pk_id": 1408097,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Roger",
+            "teacherlastname_t": "Paas"
+        }, {
+            "averageratingscore_rf": 3.9,
+            "pk_id": 1580080,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Timothy",
+            "teacherlastname_t": "Raylor"
+        }, {
+            "averageratingscore_rf": 3.3,
+            "pk_id": 1795195,
+            "total_number_of_ratings_i": 6,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Gail",
+            "teacherlastname_t": "Nelson"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1461300,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Adriana",
+            "teacherlastname_t": "Estill"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1461313,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jason",
+            "teacherlastname_t": "Decker"
+        }, {
+            "averageratingscore_rf": 4.94,
+            "pk_id": 1492498,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kathleen",
+            "teacherlastname_t": "Ryor"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 1681444,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Stephanie",
+            "teacherlastname_t": "Cox"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 1789806,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Deanna",
+            "teacherlastname_t": "Haunsperger"
+        }, {
+            "averageratingscore_rf": 3.8,
+            "pk_id": 1848646,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Martha",
+            "teacherlastname_t": "Paas"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2179387,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sonja",
+            "teacherlastname_t": "Anderson"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1461498,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Elizabeth",
+            "teacherlastname_t": "McKinsey"
+        }, {
+            "averageratingscore_rf": 3.56,
+            "pk_id": 916143,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Radek",
+            "teacherlastname_t": "Szulga"
+        }, {
+            "averageratingscore_rf": 4.2,
+            "pk_id": 1491053,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Andrew",
+            "teacherlastname_t": "Fisher"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1201821,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Daniela",
+            "teacherlastname_t": "Kohen"
+        }, {
+            "averageratingscore_rf": 3.71,
+            "pk_id": 133948,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Roy",
+            "teacherlastname_t": "Elveton"
+        }, {
+            "averageratingscore_rf": 4.57,
+            "pk_id": 142763,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mike",
+            "teacherlastname_t": "Hemesath"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 149325,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Pamela",
+            "teacherlastname_t": "Feldman-Savelsberg"
+        }, {
+            "averageratingscore_rf": 3.07,
+            "pk_id": 162181,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Becky",
+            "teacherlastname_t": "Boling"
+        }, {
+            "averageratingscore_rf": 3.57,
+            "pk_id": 501142,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Roy",
+            "teacherlastname_t": "Grow"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 576535,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Silvia",
+            "teacherlastname_t": "Lopez"
+        }, {
+            "averageratingscore_rf": 4.86,
+            "pk_id": 837238,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Steven",
+            "teacherlastname_t": "Drew"
+        }, {
+            "averageratingscore_rf": 2.86,
+            "pk_id": 855370,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Steve",
+            "teacherlastname_t": "Strand"
+        }, {
+            "averageratingscore_rf": 4.21,
+            "pk_id": 905549,
+            "total_number_of_ratings_i": 7,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Carol",
+            "teacherlastname_t": "Donelan"
+        }, {
+            "averageratingscore_rf": 3.33,
+            "pk_id": 133971,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Hector",
+            "teacherlastname_t": "Valdivia"
+        }, {
+            "averageratingscore_rf": 4.83,
+            "pk_id": 538971,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Scott",
+            "teacherlastname_t": "Carpenter"
+        }, {
+            "averageratingscore_rf": 3.67,
+            "pk_id": 1201112,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Stephen",
+            "teacherlastname_t": "Kennedy"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 1358748,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Nancy",
+            "teacherlastname_t": "Cho"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 1461314,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Daniel",
+            "teacherlastname_t": "Groll"
+        }, {
+            "averageratingscore_rf": 3.6,
+            "pk_id": 1463051,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Sarah",
+            "teacherlastname_t": "Deel"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1737910,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Matt",
+            "teacherlastname_t": "Whited"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 1933552,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Gregory ",
+            "teacherlastname_t": "Hewett"
+        }, {
+            "averageratingscore_rf": 4.1,
+            "pk_id": 567680,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Stephan",
+            "teacherlastname_t": "Zweifel"
+        }, {
+            "averageratingscore_rf": 3.83,
+            "pk_id": 2126269,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Katie",
+            "teacherlastname_t": "St. Clair"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 1464444,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Musicant"
+        }, {
+            "averageratingscore_rf": 3.9,
+            "pk_id": 1696862,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Amna",
+            "teacherlastname_t": "Khalid"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2001606,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Constanza",
+            "teacherlastname_t": "Ocampo-Raeder"
+        }, {
+            "averageratingscore_rf": 2.9,
+            "pk_id": 2156237,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Josh",
+            "teacherlastname_t": "Davis"
+        }, {
+            "averageratingscore_rf": 2.5,
+            "pk_id": 1752607,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Tsegaye",
+            "teacherlastname_t": "Nega"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 538973,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cathy",
+            "teacherlastname_t": "Yandell"
+        }, {
+            "averageratingscore_rf": 3.69,
+            "pk_id": 149196,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Diethelm",
+            "teacherlastname_t": "Prowe"
+        }, {
+            "averageratingscore_rf": 4.56,
+            "pk_id": 261878,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Roger",
+            "teacherlastname_t": "Jackson|"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 1313350,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Bill",
+            "teacherlastname_t": "Titus"
+        }, {
+            "averageratingscore_rf": 3.9,
+            "pk_id": 1418351,
+            "total_number_of_ratings_i": 8,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Bob",
+            "teacherlastname_t": "Dobrow"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 459018,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Joel",
+            "teacherlastname_t": "Weisberg"
+        }, {
+            "averageratingscore_rf": 3.4,
+            "pk_id": 1994718,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kristin",
+            "teacherlastname_t": "Bloomer"
+        }, {
+            "averageratingscore_rf": 4.09,
+            "pk_id": 440004,
+            "total_number_of_ratings_i": 11,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "John",
+            "teacherlastname_t": "Tymoczko"
+        }, {
+            "averageratingscore_rf": 4.41,
+            "pk_id": 480991,
+            "total_number_of_ratings_i": 11,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cameron",
+            "teacherlastname_t": "Davidson"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 1477497,
+            "total_number_of_ratings_i": 11,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mark",
+            "teacherlastname_t": "McKone"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1814091,
+            "total_number_of_ratings_i": 11,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Liz",
+            "teacherlastname_t": "Raleigh"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 2020834,
+            "total_number_of_ratings_i": 11,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Asuka",
+            "teacherlastname_t": "Sango"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1638013,
+            "total_number_of_ratings_i": 11,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Alberg"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 2058591,
+            "total_number_of_ratings_i": 11,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Greg",
+            "teacherlastname_t": "Marfleet"
+        }, {
+            "averageratingscore_rf": 4.35,
+            "pk_id": 162180,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Chico",
+            "teacherlastname_t": "Zimmerman"
+        }, {
+            "averageratingscore_rf": 4.9,
+            "pk_id": 204320,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "George",
+            "teacherlastname_t": "Shuffelton"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 365872,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Appleyard"
+        }, {
+            "averageratingscore_rf": 3.9,
+            "pk_id": 1542589,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Marty",
+            "teacherlastname_t": "Baylor"
+        }, {
+            "averageratingscore_rf": 4.2,
+            "pk_id": 1547958,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Linda",
+            "teacherlastname_t": "Burdell"
+        }, {
+            "averageratingscore_rf": 2.8,
+            "pk_id": 1768064,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Andrew",
+            "teacherlastname_t": "Gainer-Dewar"
+        }, {
+            "averageratingscore_rf": 4.9,
+            "pk_id": 1799687,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Julia",
+            "teacherlastname_t": "Strand"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 2108435,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kent",
+            "teacherlastname_t": "Freeze"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 142746,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Susan",
+            "teacherlastname_t": "Jaret-Mckinstry"
+        }, {
+            "averageratingscore_rf": 3.7,
+            "pk_id": 2174718,
+            "total_number_of_ratings_i": 10,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Bruce",
+            "teacherlastname_t": "Dalgaard"
+        }, {
+            "averageratingscore_rf": 4.56,
+            "pk_id": 89420,
+            "total_number_of_ratings_i": 9,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Lawrence",
+            "teacherlastname_t": "Archbold"
+        }, {
+            "averageratingscore_rf": 3.3,
+            "pk_id": 846750,
+            "total_number_of_ratings_i": 15,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Julie",
+            "teacherlastname_t": "Neiworth"
+        }, {
+            "averageratingscore_rf": 2.8,
+            "pk_id": 1987995,
+            "total_number_of_ratings_i": 15,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Ben",
+            "teacherlastname_t": "Keefer"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1439832,
+            "total_number_of_ratings_i": 15,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Eric",
+            "teacherlastname_t": "Egge"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 143395,
+            "total_number_of_ratings_i": 14,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Larry",
+            "teacherlastname_t": "Wichlinski"
+        }, {
+            "averageratingscore_rf": 4.1,
+            "pk_id": 1158115,
+            "total_number_of_ratings_i": 14,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Neil",
+            "teacherlastname_t": "Lutsky"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1645524,
+            "total_number_of_ratings_i": 14,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Helen",
+            "teacherlastname_t": "Wong"
+        }, {
+            "averageratingscore_rf": 2.8,
+            "pk_id": 739999,
+            "total_number_of_ratings_i": 14,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Amy",
+            "teacherlastname_t": "Csizmar Dalal"
+        }, {
+            "averageratingscore_rf": 4.12,
+            "pk_id": 52000,
+            "total_number_of_ratings_i": 13,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Matt",
+            "teacherlastname_t": "Rand"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 234761,
+            "total_number_of_ratings_i": 13,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Andrew",
+            "teacherlastname_t": "Flory"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 1350697,
+            "total_number_of_ratings_i": 13,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Palmar",
+            "teacherlastname_t": "Alvarez-Blanco"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 2055355,
+            "total_number_of_ratings_i": 13,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Anna",
+            "teacherlastname_t": "Rafferty"
+        }, {
+            "averageratingscore_rf": 4.6,
+            "pk_id": 1191919,
+            "total_number_of_ratings_i": 13,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jessica",
+            "teacherlastname_t": "Leiman"
+        }, {
+            "averageratingscore_rf": 4.1,
+            "pk_id": 339167,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Barbara",
+            "teacherlastname_t": "Allen"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 426190,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Peter",
+            "teacherlastname_t": "Balaam"
+        }, {
+            "averageratingscore_rf": 3.6,
+            "pk_id": 437573,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jeff",
+            "teacherlastname_t": "Ondich"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1542602,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Noah",
+            "teacherlastname_t": "Salomon"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1884268,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Tompkins"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1164926,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Laurence",
+            "teacherlastname_t": "Cooper"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 133942,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Melinda",
+            "teacherlastname_t": "Russell"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 1987508,
+            "total_number_of_ratings_i": 12,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Prathi",
+            "teacherlastname_t": "Seneviratne"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 310617,
+            "total_number_of_ratings_i": 19,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mark",
+            "teacherlastname_t": "Hansell"
+        }, {
+            "averageratingscore_rf": 4.84,
+            "pk_id": 1461312,
+            "total_number_of_ratings_i": 19,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Shana",
+            "teacherlastname_t": "Sippy"
+        }, {
+            "averageratingscore_rf": 2.6,
+            "pk_id": 2149879,
+            "total_number_of_ratings_i": 19,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Bryan",
+            "teacherlastname_t": "Daves"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 1858384,
+            "total_number_of_ratings_i": 19,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cati",
+            "teacherlastname_t": "Fortin"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 2155857,
+            "total_number_of_ratings_i": 19,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jed",
+            "teacherlastname_t": "Yang"
+        }, {
+            "averageratingscore_rf": 4.0,
+            "pk_id": 1583527,
+            "total_number_of_ratings_i": 19,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Aaron",
+            "teacherlastname_t": "Swoboda"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1254990,
+            "total_number_of_ratings_i": 18,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Dev",
+            "teacherlastname_t": "Gupta"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 134890,
+            "total_number_of_ratings_i": 18,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kathleen",
+            "teacherlastname_t": "Galotti"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 234632,
+            "total_number_of_ratings_i": 17,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Clint",
+            "teacherlastname_t": "Cowan"
+        }, {
+            "averageratingscore_rf": 4.2,
+            "pk_id": 637276,
+            "total_number_of_ratings_i": 16,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Kim",
+            "teacherlastname_t": "Smith"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 2157183,
+            "total_number_of_ratings_i": 16,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Shane",
+            "teacherlastname_t": "Auerbach"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 1259347,
+            "total_number_of_ratings_i": 16,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Ken",
+            "teacherlastname_t": "Abrams"
+        }, {
+            "averageratingscore_rf": 1.25,
+            "pk_id": 2167837,
+            "total_number_of_ratings_i": 16,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Theresa",
+            "teacherlastname_t": "Bauer"
+        }, {
+            "averageratingscore_rf": 4.5,
+            "pk_id": 149304,
+            "total_number_of_ratings_i": 16,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Laura",
+            "teacherlastname_t": "Chihara"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 1546634,
+            "total_number_of_ratings_i": 16,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Faress",
+            "teacherlastname_t": "Bhuiyan"
+        }, {
+            "averageratingscore_rf": 3.1,
+            "pk_id": 149299,
+            "total_number_of_ratings_i": 15,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Annette",
+            "teacherlastname_t": "Nierobisz"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 310615,
+            "total_number_of_ratings_i": 15,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Harry",
+            "teacherlastname_t": "Williams"
+        }, {
+            "averageratingscore_rf": 4.6,
+            "pk_id": 1376704,
+            "total_number_of_ratings_i": 15,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "David",
+            "teacherlastname_t": "Liben-Nowell"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 2052080,
+            "total_number_of_ratings_i": 15,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Cherlon",
+            "teacherlastname_t": "Ussery"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 2167969,
+            "total_number_of_ratings_i": 15,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jonathan",
+            "teacherlastname_t": "Lafky"
+        }, {
+            "averageratingscore_rf": 4.8,
+            "pk_id": 1196288,
+            "total_number_of_ratings_i": 35,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jenny",
+            "teacherlastname_t": "Bourne"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 1461317,
+            "total_number_of_ratings_i": 32,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Jay",
+            "teacherlastname_t": "Levi"
+        }, {
+            "averageratingscore_rf": 5.0,
+            "pk_id": 158255,
+            "total_number_of_ratings_i": 27,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Bill",
+            "teacherlastname_t": "North"
+        }, {
+            "averageratingscore_rf": 2.0,
+            "pk_id": 133564,
+            "total_number_of_ratings_i": 26,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Lawrence",
+            "teacherlastname_t": "Burnett"
+        }, {
+            "averageratingscore_rf": 3.4,
+            "pk_id": 562054,
+            "total_number_of_ratings_i": 26,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Nathan",
+            "teacherlastname_t": "Grawe"
+        }, {
+            "averageratingscore_rf": 4.7,
+            "pk_id": 779826,
+            "total_number_of_ratings_i": 26,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Pierre",
+            "teacherlastname_t": "Hecker"
+        }, {
+            "averageratingscore_rf": 2.6,
+            "pk_id": 310616,
+            "total_number_of_ratings_i": 24,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mike",
+            "teacherlastname_t": "Flynn"
+        }, {
+            "averageratingscore_rf": 3.0,
+            "pk_id": 339170,
+            "total_number_of_ratings_i": 23,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Richard",
+            "teacherlastname_t": "Keiser"
+        }, {
+            "averageratingscore_rf": 4.3,
+            "pk_id": 1546637,
+            "total_number_of_ratings_i": 23,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mihaela",
+            "teacherlastname_t": "Czobor-Lupp"
+        }, {
+            "averageratingscore_rf": 3.5,
+            "pk_id": 1654916,
+            "total_number_of_ratings_i": 22,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Tun",
+            "teacherlastname_t": "Myint"
+        }, {
+            "averageratingscore_rf": 4.4,
+            "pk_id": 616304,
+            "total_number_of_ratings_i": 21,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Steven",
+            "teacherlastname_t": "Schier"
+        }, {
+            "averageratingscore_rf": 3.43,
+            "pk_id": 836267,
+            "total_number_of_ratings_i": 21,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Pavel",
+            "teacherlastname_t": "Kapinos"
+        }, {
+            "averageratingscore_rf": 2.8,
+            "pk_id": 1987450,
+            "total_number_of_ratings_i": 21,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mark",
+            "teacherlastname_t": "Kanazawa"
+        }, {
+            "averageratingscore_rf": 4.2,
+            "pk_id": 1996078,
+            "total_number_of_ratings_i": 21,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Hicham",
+            "teacherlastname_t": "Nassif"
+        }, {
+            "averageratingscore_rf": 4.71,
+            "pk_id": 1756424,
+            "total_number_of_ratings_i": 21,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Rafe",
+            "teacherlastname_t": "Jones"
+        }, {
+            "averageratingscore_rf": 4.75,
+            "pk_id": 892531,
+            "total_number_of_ratings_i": 20,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Al",
+            "teacherlastname_t": "Montero"
+        }, {
+            "averageratingscore_rf": 2.2,
+            "pk_id": 1278354,
+            "total_number_of_ratings_i": 20,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Seungjoo",
+            "teacherlastname_t": "Yoon"
+        }, {
+            "averageratingscore_rf": 3.8,
+            "pk_id": 2056553,
+            "total_number_of_ratings_i": 20,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Stephie",
+            "teacherlastname_t": "Fried"
+        }, {
+            "averageratingscore_rf": 4.6,
+            "pk_id": 890186,
+            "total_number_of_ratings_i": 20,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Mark",
+            "teacherlastname_t": "Krusemeyer"
+        }, {
+            "averageratingscore_rf": 2.7,
+            "pk_id": 2159813,
+            "total_number_of_ratings_i": 20,
+            "schoolid_s": "179",
+            "teacherfirstname_t": "Andy",
+            "teacherlastname_t": "Poppick"
+        }
+    ]
+}

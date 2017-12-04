@@ -8,7 +8,7 @@ import json
 import numpy as np
 import math
 
-courses, targets, departments, distros, starts = [], [], [], [], []
+courses, targets, departments, distros, starts, profs = [], [], [], [], [], []
 
 def prediction_variables_present(course):
 	for field in ["summary", "start_time", "end_time", "department", "requirements_met", "registered", "size", "faculty"]:
@@ -34,11 +34,15 @@ def time_string_to_float(time):
 	return float(str(hour) + str(minute)[1:])
 
 
-def initialize_courses():
+def initialize_data():
+	
+	# Read in data from Enroll
 	path = "Carleton Data - Past Terms"
 	for term in os.listdir(path):
 		markdown = open(path + "\\" + term).read()
 		for course in json.loads(markdown)["course_info"]:
+			
+			# Exclude courses that aren't appropriate for analysis
 			try:
 				# Since we're predicting on multiple variables in the same matrix,
 				# we'll want to make sure that all of our courses have all of said variables
@@ -57,6 +61,17 @@ def initialize_courses():
 			except:
 				pass
 	targets.extend([float(course["registered"]) / float(course["size"]) for course in courses])
+	
+	# Read in data from RateMyProfessors
+	markdown = open("RatingsData.json").read()
+	for prof in json.loads(markdown)["ratings"]:
+		first = prof["teacherfirstname_t"]
+		last = prof["teacherlastname_t"]
+		rating = prof["averageratingscore_rf"]
+		num_ratings = prof["total_number_of_ratings_i"]
+		profs.append((first, last, rating, num_ratings))
+	profs.sort(key = lambda prof : prof[3])
+	profs.sort(key = lambda prof : prof[2])
 
 
 def analyze():
@@ -117,6 +132,16 @@ def analyze():
 	# 	print start, round(enroll_rate, 3)
 	# print "\n\n"
 
+	# Start a map of course[faculty] to (rating, numRatings)
+	# for each course:
+	# 	for each prof tuple:
+	# 		if prof[0] in course[faculty] and prof[1] in course[faculty]:
+	# 			map[course[faculty]] = (prof[2], prof[3])
+	# Then analyze
+
+	
+
+
 
 def predict():
 
@@ -125,8 +150,18 @@ def predict():
 	distro_nums = {distro : i + 1 for i, distro in enumerate(distros)}
 	start_nums = {start : i + 1 for i, start in enumerate(starts)}
 
+	prof_map = {}
+	prof_count = 0
+	for course in courses:
+		for prof in profs:
+			if prof[0] in course["faculty"] and prof[1] in course["faculty"]:
+				prof_count += 1
+				prof_map[course["faculty"]] = (prof[2], prof[3])
+	print prof_count
+	# We don't have RateMy data for about a quarter of our courses
+
 	# Construct training matrix
-	matrix = np.zeros((len(courses), 6))
+	matrix = np.zeros((len(courses), 8))
 	for i, course in enumerate(courses):
 		
 		# Column 0: Department classification
@@ -140,6 +175,14 @@ def predict():
 
 		# Column 5: Start time
 		matrix[i][5] = start_nums[time_string_to_float(course["start_time"])]
+
+		# Columns 6 and 7: RateMyProfessors data
+		try:
+			prof = prof_map[course["faculty"]]
+			matrix[i][6] = prof[0]
+			matrix[i][7] = prof[1]
+		except:
+			pass
 
 	# Standardize the data
 	# ...(to do once there are more variables involved)
@@ -155,7 +198,7 @@ def predict():
 
 def main():
 	
-	initialize_courses()
+	initialize_data()
 	analyze()
 	predict()
 	
@@ -194,4 +237,23 @@ Comma separating multiple instructors
 === In RateMy data ===
 
 Just first name and last name --> check if both are "in" field
+
+=== My algorithm ===
+
+Build sorted list of tuples of prof (first, last, rating, numRatings) from RateMy data
+Start a map of course[faculty] to (rating, numRatings)
+for each course:
+	for each prof tuple:
+		if prof[0] in course[faculty] and prof[1] in course[faculty]:
+			map[course[faculty]] = (prof[2], prof[3])
+# Then analyze
+
+# In predict:
+For each course:
+	matrix[i][6] = map[prof][0] # Rating
+	matrix[i][7] = map[prof][1] # Num ratings
+			
+
 '''
+
+# Current best mean error: .1577
