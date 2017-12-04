@@ -199,13 +199,20 @@ def predict():
 		except:
 			pass
 
-	# Standardize the data
-	# ...(to do once there are more variables involved)
-	# center data at 0 and divide by variance (standardization)
+	# Standardize the data: center columns at 0 and divide by variance
+	for i in range(len(matrix[0])):
+		column = np.array(matrix)[:, i]
+		column_mean = sum(column) / len(column)
+		column_std = np.std(column)
+		for j in range(len(matrix)):
+			matrix[j][i] -= column_mean
+			matrix[j][i] /= column_std
 
 	# Create and train random forest classifier
 	rfr = RandomForestRegressor(n_estimators = 200, oob_score = True)
 	predictions_same_data = rfr.fit(matrix, np.array(targets).ravel()).predict(matrix)
+
+	# Implement cross-validation
 
 	print "===== RandomForestRegressor Results =====\n"
 	print "Mean error:", math.sqrt(metrics.mean_squared_error(targets, predictions_same_data)), "\n"
@@ -227,6 +234,8 @@ Try a different error function of (mean squared error) * P(t) <- For P(t), make 
 random forest (could overfit on floats)
 support vector machine (svm) -> center data at 0 and divide by variance (standardization) (prefers floats)
 multi-layer perceptron (mlp) (100 hidden states, 10 hidden states -> same deal as forest's n_estimators) (prefers floats)
+
+Implement cross-validation
 
 
 ************************* START TIMES *************************
