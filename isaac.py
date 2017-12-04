@@ -9,6 +9,8 @@ import numpy as np
 import math
 
 courses, targets, departments, distros, starts, profs = [], [], [], [], [], []
+dep_map, distro_map, start_map, prof_map = {}, {}, {}, {}
+
 
 def prediction_variables_present(course):
 	for field in ["summary", "start_time", "end_time", "department", "requirements_met", "registered", "size", "faculty"]:
@@ -87,6 +89,8 @@ def analyze():
 		if course["department"] not in department_set:
 			department_set.add(course["department"])
 	departments.extend(sorted(department_set))
+	for i, dep in enumerate(departments):
+		dep_map[dep] = i
 
 	# Analyze average course enrollment rate by department
 	enrollment_by_dep = []
@@ -106,6 +110,8 @@ def analyze():
 			if distro:
 				distro_set.add(distro)
 	distros.extend(sorted(distro_set))
+	for i, distro in enumerate(distros):
+		distro_map[distro] = i
 
 	# Analyze average course enrollment rate by distro
 	enrollment_by_distro = []
@@ -120,8 +126,11 @@ def analyze():
 	
 	start_set = {time_string_to_float(course["start_time"]) for course in courses}
 	starts.extend(start_set)
+	for i, start in enumerate(starts):
+		start_map[start] = i
 
 	# Analyze average course enrollment rate by start time
+	# This ends up looking a lil messy when printed
 	# enrollment_by_start = []
 	# for start in starts:
 	# 	start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
@@ -132,49 +141,55 @@ def analyze():
 	# 	print start, round(enroll_rate, 3)
 	# print "\n\n"
 
-	# Start a map of course[faculty] to (rating, numRatings)
-	# for each course:
-	# 	for each prof tuple:
-	# 		if prof[0] in course[faculty] and prof[1] in course[faculty]:
-	# 			map[course[faculty]] = (prof[2], prof[3])
-	# Then analyze
-
-	
-
-
-
-def predict():
-
-	# Construct map for each variable
-	dep_nums = {dep : i + 1 for i, dep in enumerate(departments)}
-	distro_nums = {distro : i + 1 for i, distro in enumerate(distros)}
-	start_nums = {start : i + 1 for i, start in enumerate(starts)}
-
-	prof_map = {}
-	prof_count = 0
 	for course in courses:
 		for prof in profs:
 			if prof[0] in course["faculty"] and prof[1] in course["faculty"]:
-				prof_count += 1
-				prof_map[course["faculty"]] = (prof[2], prof[3])
-	print prof_count
-	# We don't have RateMy data for about a quarter of our courses
+				prof_map[course["faculty"]] = (prof[2], prof[3], course["department"])
+
+	# Analyze highest rated profs
+	prof_items = prof_map.items()
+	prof_items.sort()
+	prof_items.sort(key = lambda prof : prof[1][1], reverse=True)
+	prof_items.sort(key = lambda prof : prof[1][0], reverse=True)
+	print "===== Highest-Rated Professors =====\n"
+	for prof in prof_items:
+		if prof[1][0] > 4.7 and prof[1][1] > 4 and len(prof[0].split(",")) == 1:
+			print prof[1][2], prof[0][1:], prof[1][0], prof[1][1]
+	print "\n\n"
+	
+	# Analyze average course enrollment rate by department
+	enrollment_by_prof = []
+	for prof in prof_map.keys():
+		prof_targets = []
+		for i, course in enumerate(courses):
+			if course["faculty"] == prof:
+				prof_targets.append(targets[i])
+		enrollment_by_prof.append((prof, sum(prof_targets) / len(prof_targets), prof_map[prof][2]))
+	enrollment_by_prof.sort(key=lambda x : x[1], reverse=True)
+	print "===== Average Course Enrollment by Prof =====\n"
+	for prof, enroll_rate, dep in enrollment_by_prof[:50]:
+		if len(prof.split(",")) == 1:
+			print dep, prof[1:], round(enroll_rate, 3)
+	print "\n"
+
+
+def predict():
 
 	# Construct training matrix
 	matrix = np.zeros((len(courses), 8))
 	for i, course in enumerate(courses):
 		
 		# Column 0: Department classification
-		matrix[i][0] = dep_nums[course["department"]]
+		matrix[i][0] = dep_map[course["department"]]
 		
 		# Columns 1 - 4: Possible distros
 		course_distros = course["requirements_met"].split("\n")
 		course_distros = filter(lambda distro : distro, course_distros)
 		for j, distro in enumerate(course_distros):
-			matrix[i][1 + j] = distro_nums[distro]
+			matrix[i][1 + j] = distro_map[distro]
 
 		# Column 5: Start time
-		matrix[i][5] = start_nums[time_string_to_float(course["start_time"])]
+		matrix[i][5] = start_map[time_string_to_float(course["start_time"])]
 
 		# Columns 6 and 7: RateMyProfessors data
 		try:
@@ -224,35 +239,6 @@ Options for start time:
 Results:
 	Everything as floats: .1937
 	Only normal times as floats: more
-
-
-************************* FACULTY *************************
-
-=== In Enroll data ===
-
-Double space between name
-Middle initial is common --> check for name both with and without
-Comma separating multiple instructors
-
-=== In RateMy data ===
-
-Just first name and last name --> check if both are "in" field
-
-=== My algorithm ===
-
-Build sorted list of tuples of prof (first, last, rating, numRatings) from RateMy data
-Start a map of course[faculty] to (rating, numRatings)
-for each course:
-	for each prof tuple:
-		if prof[0] in course[faculty] and prof[1] in course[faculty]:
-			map[course[faculty]] = (prof[2], prof[3])
-# Then analyze
-
-# In predict:
-For each course:
-	matrix[i][6] = map[prof][0] # Rating
-	matrix[i][7] = map[prof][1] # Num ratings
-			
 
 '''
 
