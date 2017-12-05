@@ -3,6 +3,7 @@ from sklearn import linear_model, metrics
 from sklearn.naive_bayes import BernoulliNB, GaussianNB
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.feature_selection import SelectFromModel
+from sklearn.neural_network import MLPRegressor
 from collections import defaultdict
 import os
 import json
@@ -217,6 +218,31 @@ def analyze():
 	print "\n"
 
 
+def test_model(matrix, model):
+
+	test_errors = []
+
+	# Ten iterations of 80/20 cross-validation
+	for _ in range(10):
+	
+		# Randomly partition about 80% of the data for training and the remaining for testing
+		training_matrix, training_targets, test_matrix, test_targets = [], [], [], []
+		for i in range(len(targets)):
+			if random.random() < .8:
+				training_matrix.append(matrix[i])
+				training_targets.append(targets[i])
+			else:
+				test_matrix.append(matrix[i])
+				test_targets.append(targets[i])
+
+		# Train and predict on test data
+		model.fit(training_matrix, training_targets)
+		test_predictions = model.predict(test_matrix)
+		test_errors.append(math.sqrt(metrics.mean_squared_error(test_targets, test_predictions)))
+	
+	print "Minimum mean error over ten models:", min(test_errors), "\n\n"
+
+
 def predict():
 
 	# Construct training matrix
@@ -258,32 +284,11 @@ def predict():
 			matrix[j][i] -= column_mean
 			matrix[j][i] /= column_std
 
-	print "===== RandomForestRegressor Results =====\n"
+	print "===== Random Forest Regressor Results =====\n"
+	test_model(matrix, RandomForestRegressor(n_estimators = 50, oob_score = True))
 
-	test_errors = []
-
-	# Ten iterations of 80/20 cross-validation
-	for _ in range(10):
-	
-		# Randomly partition about 80% of the data for training and the remaining for testing
-		training_matrix, training_targets, test_matrix, test_targets = [], [], [], []
-		for i in range(len(targets)):
-			if random.random() < .8:
-				training_matrix.append(matrix[i])
-				training_targets.append(targets[i])
-			else:
-				test_matrix.append(matrix[i])
-				test_targets.append(targets[i])
-
-		# Create and train random forest classifier
-		rfr = RandomForestRegressor(n_estimators = 50, oob_score = True)
-		rfr.fit(training_matrix, np.array(training_targets).ravel())
-
-		# Predict on test data
-		test_predictions = rfr.predict(test_matrix)
-		test_errors.append(math.sqrt(metrics.mean_squared_error(test_targets, test_predictions)))
-	
-	print "Minimum mean error over ten models:", min(test_errors)
+	print "===== Multilayer Perceptron Results =====\n"
+	test_model(matrix, MLPRegressor(hidden_layer_sizes=(100, 10)))
 
 def main():
 	
