@@ -243,8 +243,24 @@ def analyze():
 			if l < bound:
 				lengths_to_targets[bound].append(targets[i])
 				break
-	print "===== Average Enrollment by Description Lenth (upper bound : # courses : enrollment) =====\n"
+	print "===== Average Enrollment by Description Length (upper bound : # courses : enrollment) =====\n"
 	for item in sorted(lengths_to_targets.items()):
+		print item[0], len(item[1]), sum(item[1]) / len(item[1])
+	print "\n"
+
+	# Analyze key words in course descriptions
+	words_to_targets = defaultdict(list)
+	key_words = ["sex", "gender", "race", "mind", "critique", "exciting", "fascinating", "internet", "sustainable", "social", "global", "food", "introduction", "environment", "required", "danger", "research", "modern", "additional time", "advanced", "period", "death", "paper", "essay", "assignment", "order", "science", "write", "read", "novel", "fiction", "non-fiction", "conflict", "war", "peace", "technology", "data", "politic", "love", "democracy", "question", "meaning", "ethic", "moral", "project", "team"]
+	for word in key_words:
+		for i, course in enumerate(courses):
+			if word in course["summary"]:
+				words_to_targets[word].append(targets[i])
+				# if word == "data":
+				# 	print course["department"], course["title"]
+	print "===== Average Enrollment by Description Key Word (word : # descriptions : enrollment) =====\n"
+	word_target_items = words_to_targets.items()
+	word_target_items.sort(key = lambda x : sum(x[1]) / len(x[1]), reverse = True)
+	for item in word_target_items:
 		print item[0], len(item[1]), sum(item[1]) / len(item[1])
 	print "\n"
 
