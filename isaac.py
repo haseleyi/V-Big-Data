@@ -227,7 +227,7 @@ def predict():
 				test_targets.append(targets[i])
 
 		# Create and train random forest classifier
-		rfr = RandomForestRegressor(n_estimators = 200, oob_score = True)
+		rfr = RandomForestRegressor(n_estimators = 50, oob_score = True)
 		rfr.fit(training_matrix, np.array(training_targets).ravel())
 
 		# Predict on test data
