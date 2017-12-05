@@ -204,7 +204,7 @@ def analyze():
 def predict():
 
 	# Construct training matrix
-	matrix = np.zeros((len(courses), 8))
+	matrix = np.zeros((len(courses), 9))
 	for i, course in enumerate(courses):
 		
 		# Column 0: Department classification
@@ -226,6 +226,9 @@ def predict():
 			matrix[i][7] = prof[1]
 		except:
 			pass
+
+		# Column 8: Course title
+		matrix[i][8] = title_map[course["title"]]
 
 	# Standardize the data: center columns at 0 and divide by variance
 	for i in range(len(matrix[0])):
@@ -296,4 +299,4 @@ Results:
 
 '''
 
-# Current best mean error: .2256
+# Current best mean error: .2196
