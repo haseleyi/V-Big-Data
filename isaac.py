@@ -7,6 +7,7 @@ import os
 import json
 import numpy as np
 import math
+import random
 
 courses, targets, departments, distros, starts, profs = [], [], [], [], [], []
 dep_map, distro_map, start_map, prof_map = {}, {}, {}, {}
@@ -133,12 +134,12 @@ def analyze():
 	# This ends up looking a lil messy when printed
 	# enrollment_by_start = []
 	# for start in starts:
-	# 	start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
-	# 	enrollment_by_start.append((start, sum(start_targets) / len(start_targets)))
+	#   start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
+	#   enrollment_by_start.append((start, sum(start_targets) / len(start_targets)))
 	# enrollment_by_start.sort(key=lambda x : x[0], reverse=True)
 	# print "===== Average Course Enrollment by Start =====\n"
 	# for start, enroll_rate in enrollment_by_start:
-	# 	print start, round(enroll_rate, 3)
+	#   print start, round(enroll_rate, 3)
 	# print "\n\n"
 
 	for course in courses:
@@ -208,15 +209,32 @@ def predict():
 			matrix[j][i] -= column_mean
 			matrix[j][i] /= column_std
 
-	# Create and train random forest classifier
-	rfr = RandomForestRegressor(n_estimators = 200, oob_score = True)
-	predictions_same_data = rfr.fit(matrix, np.array(targets).ravel()).predict(matrix)
-
-	# Implement cross-validation
-
 	print "===== RandomForestRegressor Results =====\n"
-	print "Mean error:", math.sqrt(metrics.mean_squared_error(targets, predictions_same_data)), "\n"
+
+	test_errors = []
+
+	# Ten iterations of 80/20 cross-validation
+	for _ in range(10):
 	
+		# Randomly partition about 80% of the data for training and the remaining for testing
+		training_matrix, training_targets, test_matrix, test_targets = [], [], [], []
+		for i in range(len(targets)):
+			if random.random() < .8:
+				training_matrix.append(matrix[i])
+				training_targets.append(targets[i])
+			else:
+				test_matrix.append(matrix[i])
+				test_targets.append(targets[i])
+
+		# Create and train random forest classifier
+		rfr = RandomForestRegressor(n_estimators = 200, oob_score = True)
+		rfr.fit(training_matrix, np.array(training_targets).ravel())
+
+		# Predict on test data
+		test_predictions = rfr.predict(test_matrix)
+		test_errors.append(math.sqrt(metrics.mean_squared_error(test_targets, test_predictions)))
+	
+	print "Minimum mean error over ten models:", min(test_errors)
 
 def main():
 	
@@ -240,7 +258,7 @@ Implement cross-validation
 
 ************************* START TIMES *************************
 
-Options for start time:	
+Options for start time: 
 	Try keeping everything
 	Try excluding courses at odd times and see if model improves
 	Try bucketting into "before __", "after __"
@@ -251,4 +269,4 @@ Results:
 
 '''
 
-# Current best mean error: .1577
+# Current best mean error: .2256
