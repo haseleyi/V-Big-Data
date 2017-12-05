@@ -4,6 +4,7 @@ from sklearn.naive_bayes import BernoulliNB, GaussianNB
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.feature_selection import SelectFromModel
 from sklearn.neural_network import MLPRegressor
+from sklearn import svm
 from collections import defaultdict
 import os
 import json
@@ -290,6 +291,9 @@ def predict():
 	print "===== Multilayer Perceptron Results =====\n"
 	test_model(matrix, MLPRegressor(hidden_layer_sizes=(100, 10)))
 
+	print "===== Support Vector Machine Results =====\n"
+	test_model(matrix, svm.SVR())
+
 def main():
 	
 	initialize_data()
@@ -302,12 +306,6 @@ main()
 ************************* MODEL *************************
 
 Try a different error function of (mean squared error) * P(t) <- For P(t), make histogram of t's and normalize, take value at t bucket
-
-random forest (could overfit on floats)
-support vector machine (svm) -> center data at 0 and divide by variance (standardization) (prefers floats)
-multi-layer perceptron (mlp) (100 hidden states, 10 hidden states -> same deal as forest's n_estimators) (prefers floats)
-
-Implement cross-validation
 
 
 ************************* START TIMES *************************
