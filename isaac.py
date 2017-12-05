@@ -131,16 +131,15 @@ def analyze():
 		start_map[start] = i
 
 	# Analyze average course enrollment rate by start time
-	# This ends up looking a lil messy when printed
-	# enrollment_by_start = []
-	# for start in starts:
-	#   start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
-	#   enrollment_by_start.append((start, sum(start_targets) / len(start_targets)))
-	# enrollment_by_start.sort(key = lambda x : x[0], reverse = True)
-	# print "===== Average Course Enrollment by Start =====\n"
-	# for start, enroll_rate in enrollment_by_start:
-	#   print start, round(enroll_rate, 3)
-	# print "\n\n"
+	enrollment_by_start = []
+	for start in starts:
+	  start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
+	  enrollment_by_start.append((start, sum(start_targets) / len(start_targets)))
+	enrollment_by_start.sort(key = lambda x : x[0], reverse = True)
+	print "===== Average Course Enrollment by Start (hours after 8am : enrollment) =====\n"
+	for start, enroll_rate in enrollment_by_start:
+	  print start, round(enroll_rate, 3)
+	print "\n\n"
 
 	# Construct prof map
 	for course in courses:
