@@ -97,7 +97,7 @@ def analyze():
 	for dep in departments:
 		dep_targets = [targets[i] for i, course in enumerate(courses) if course["department"] == dep]
 		enrollment_by_dep.append((dep, sum(dep_targets) / len(dep_targets)))
-	enrollment_by_dep.sort(key=lambda x : x[1], reverse=True)
+	enrollment_by_dep.sort(key = lambda x : x[1], reverse = True)
 	print "===== Average Course Enrollment by Department =====\n"
 	for dep, enroll_rate in enrollment_by_dep:
 		print dep, round(enroll_rate, 3),
@@ -118,7 +118,7 @@ def analyze():
 	for distro in distros:
 		distro_targets = [targets[i] for i, course in enumerate(courses) if distro in course["requirements_met"].split("\n")]
 		enrollment_by_distro.append((distro, sum(distro_targets) / len(distro_targets)))
-	enrollment_by_distro.sort(key=lambda x : x[1], reverse=True)
+	enrollment_by_distro.sort(key = lambda x : x[1], reverse = True)
 	print "===== Average Course Enrollment by Distro =====\n"
 	for distro, enroll_rate in enrollment_by_distro:
 		print distro, round(enroll_rate, 3),
@@ -136,7 +136,7 @@ def analyze():
 	# for start in starts:
 	#   start_targets = [targets[i] for i, course in enumerate(courses) if start == time_string_to_float(course["start_time"])]
 	#   enrollment_by_start.append((start, sum(start_targets) / len(start_targets)))
-	# enrollment_by_start.sort(key=lambda x : x[0], reverse=True)
+	# enrollment_by_start.sort(key = lambda x : x[0], reverse = True)
 	# print "===== Average Course Enrollment by Start =====\n"
 	# for start, enroll_rate in enrollment_by_start:
 	#   print start, round(enroll_rate, 3)
@@ -151,8 +151,8 @@ def analyze():
 	# Find highest-rated profs
 	prof_items = prof_map.items()
 	prof_items.sort()
-	prof_items.sort(key = lambda prof : prof[1][1], reverse=True)
-	prof_items.sort(key = lambda prof : prof[1][0], reverse=True)
+	prof_items.sort(key = lambda prof : prof[1][1], reverse = True)
+	prof_items.sort(key = lambda prof : prof[1][0], reverse = True)
 	print "===== Highest-Rated Professors =====\n"
 	for prof in prof_items:
 		if prof[1][0] > 4.7 and prof[1][1] > 4 and len(prof[0].split(",")) == 1:
@@ -167,7 +167,7 @@ def analyze():
 			if course["faculty"] == prof:
 				prof_targets.append(targets[i])
 		enrollment_by_prof.append((prof, sum(prof_targets) / len(prof_targets), prof_map[prof][2]))
-	enrollment_by_prof.sort(key=lambda x : x[1], reverse=True)
+	enrollment_by_prof.sort(key = lambda x : x[1], reverse = True)
 	print "===== Average Course Enrollment by Prof =====\n"
 	for prof, enroll_rate, dep in enrollment_by_prof[:50]:
 		if len(prof.split(",")) == 1:
@@ -193,7 +193,7 @@ def analyze():
 	print "===== Most-Enrolled Course by Department =====\n"
 	for pair in enrollment_by_title.items():
 		most_popular = pair[1]
-		most_popular.sort(key = lambda course : course[1], reverse=True)
+		most_popular.sort(key = lambda x : x[1], reverse = True)
 		print pair[0], most_popular[0]
 	print "\n"
 
@@ -202,6 +202,20 @@ def analyze():
 	durations = sorted(duration_set)
 	for i, duration in enumerate(durations):
 		duration_map[duration] = i
+
+	# Analyze enrollment by course duration
+	enrollment_by_duration = []
+	for dur in durations:
+		dur_targets = []
+		for i, course in enumerate(courses):
+			if round(time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]), 2) == dur:
+				dur_targets.append(targets[i])
+		enrollment_by_duration.append((dur, sum(dur_targets) / len(dur_targets)))
+	enrollment_by_duration.sort(key = lambda x : x[0], reverse = True)
+	print "===== Average Course Enrollment by Course Duration (hours : enrollment) =====\n"
+	for dur, enroll_rate in enrollment_by_duration:
+		print dur, round(enroll_rate, 3)
+	print "\n"
 
 
 def predict():
