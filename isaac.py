@@ -10,8 +10,8 @@ import numpy as np
 import math
 import random
 
-courses, targets, departments, distros, starts, profs, titles = [], [], [], [], [], [], []
-dep_map, distro_map, start_map, prof_map, title_map = {}, {}, {}, {}, {}
+courses, targets, departments, distros, starts, profs, titles, durations = [], [], [], [], [], [], [], []
+dep_map, distro_map, start_map, prof_map, title_map, duration_map = {}, {}, {}, {}, {}, {}
 
 
 def prediction_variables_present(course):
@@ -86,11 +86,8 @@ def analyze():
 	print "Number of courses filled to capacity:", len([t for t in targets if t >= 1])
 	print "Average enrollment (allowing targets greater than 1):", sum(targets) / len(targets), "\n\n"
 
-	# Construct sorted list of departments
-	department_set = set()
-	for course in courses:
-		if course["department"] not in department_set:
-			department_set.add(course["department"])
+	# Construct department data structures
+	department_set = {course["department"] for course in courses}
 	departments.extend(sorted(department_set))
 	for i, dep in enumerate(departments):
 		dep_map[dep] = i
@@ -106,7 +103,7 @@ def analyze():
 		print dep, round(enroll_rate, 3),
 	print "\n\n"
 
-	# Construct sorted list of distros
+	# Construct distro data structures
 	distro_set = set()
 	for course in courses:
 		for distro in course["requirements_met"].split("\n"):
@@ -127,6 +124,7 @@ def analyze():
 		print distro, round(enroll_rate, 3),
 	print "\n\n"
 	
+	# Construct start time data structures
 	start_set = {time_string_to_float(course["start_time"]) for course in courses}
 	starts.extend(start_set)
 	for i, start in enumerate(starts):
@@ -144,6 +142,7 @@ def analyze():
 	#   print start, round(enroll_rate, 3)
 	# print "\n\n"
 
+	# Construct prof map
 	for course in courses:
 		for prof in profs:
 			if prof[0] in course["faculty"] and prof[1] in course["faculty"]:
@@ -175,11 +174,8 @@ def analyze():
 			print dep, prof[1:], round(enroll_rate, 3)
 	print "\n"
 
-	# Construct sorted list of course titles
-	title_set = set()
-	for course in courses:
-		if course["title"] not in title_set:
-			title_set.add(course["title"])
+	# Construct course data structures
+	title_set = {course["title"] for course in courses}
 	titles.extend(sorted(title_set))
 	for i, title in enumerate(titles):
 		title_map[title] = i
@@ -200,6 +196,12 @@ def analyze():
 		most_popular.sort(key = lambda course : course[1], reverse=True)
 		print pair[0], most_popular[0]
 	print "\n"
+
+
+	duration_set = {time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]) for course in courses}
+	durations = sorted(duration_set)
+
+
 
 def predict():
 
@@ -299,4 +301,4 @@ Results:
 
 '''
 
-# Current best mean error: .2196
+# Current best mean error: .2178
