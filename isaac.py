@@ -197,16 +197,17 @@ def analyze():
 		print pair[0], most_popular[0]
 	print "\n"
 
-
-	duration_set = {time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]) for course in courses}
+	# Construct course duration data structures
+	duration_set = {round(time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]), 2) for course in courses}
 	durations = sorted(duration_set)
-
+	for i, duration in enumerate(durations):
+		duration_map[duration] = i
 
 
 def predict():
 
 	# Construct training matrix
-	matrix = np.zeros((len(courses), 9))
+	matrix = np.zeros((len(courses), 10))
 	for i, course in enumerate(courses):
 		
 		# Column 0: Department classification
@@ -231,6 +232,9 @@ def predict():
 
 		# Column 8: Course title
 		matrix[i][8] = title_map[course["title"]]
+
+		# Column 9: Course duration
+		matrix[i][9] = round(time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]), 2)
 
 	# Standardize the data: center columns at 0 and divide by variance
 	for i in range(len(matrix[0])):
@@ -301,4 +305,4 @@ Results:
 
 '''
 
-# Current best mean error: .2178
+# Current best mean error: .2042
