@@ -3,18 +3,20 @@ from sklearn import linear_model, metrics
 from sklearn.naive_bayes import BernoulliNB, GaussianNB
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.feature_selection import SelectFromModel
+from collections import defaultdict
 import os
 import json
 import numpy as np
 import math
 import random
 
-courses, targets, departments, distros, starts, profs = [], [], [], [], [], []
-dep_map, distro_map, start_map, prof_map = {}, {}, {}, {}
+courses, targets, departments, distros, starts, profs, titles = [], [], [], [], [], [], []
+dep_map, distro_map, start_map, prof_map, title_map = {}, {}, {}, {}, {}
 
 
 def prediction_variables_present(course):
-	for field in ["summary", "start_time", "end_time", "department", "requirements_met", "registered", "size", "faculty"]:
+	for field in ["summary", "start_time", "end_time", "department", "requirements_met", 
+				  "registered", "size", "faculty", "title"]:
 		try:
 			if course[field] == "n/a":
 				return False
@@ -147,7 +149,7 @@ def analyze():
 			if prof[0] in course["faculty"] and prof[1] in course["faculty"]:
 				prof_map[course["faculty"]] = (prof[2], prof[3], course["department"])
 
-	# Analyze highest rated profs
+	# Find highest-rated profs
 	prof_items = prof_map.items()
 	prof_items.sort()
 	prof_items.sort(key = lambda prof : prof[1][1], reverse=True)
@@ -158,7 +160,7 @@ def analyze():
 			print prof[1][2], prof[0][1:], prof[1][0], prof[1][1]
 	print "\n\n"
 	
-	# Analyze average course enrollment rate by department
+	# Analyze average course enrollment rate by professor
 	enrollment_by_prof = []
 	for prof in prof_map.keys():
 		prof_targets = []
@@ -173,6 +175,31 @@ def analyze():
 			print dep, prof[1:], round(enroll_rate, 3)
 	print "\n"
 
+	# Construct sorted list of course titles
+	title_set = set()
+	for course in courses:
+		if course["title"] not in title_set:
+			title_set.add(course["title"])
+	titles.extend(sorted(title_set))
+	for i, title in enumerate(titles):
+		title_map[title] = i
+
+	# Find most-enrolled course by department
+	enrollment_by_title = defaultdict(list)
+	for title in titles:
+		title_targets = []
+		department = ""
+		for i, course in enumerate(courses):
+			if course["title"] == title:
+				title_targets.append(targets[i])
+				department = course["department"]
+		enrollment_by_title[department].append((title, sum(title_targets) / len(title_targets)))
+	print "===== Most-Enrolled Course by Department =====\n"
+	for pair in enrollment_by_title.items():
+		most_popular = pair[1]
+		most_popular.sort(key = lambda course : course[1], reverse=True)
+		print pair[0], most_popular[0]
+	print "\n"
 
 def predict():
 
