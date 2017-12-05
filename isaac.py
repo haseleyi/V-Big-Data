@@ -6,6 +6,7 @@ from sklearn.feature_selection import SelectFromModel
 from sklearn.neural_network import MLPRegressor
 from sklearn import svm
 from collections import defaultdict
+from afinn import Afinn
 import os
 import json
 import numpy as np
@@ -218,13 +219,41 @@ def analyze():
 		print dur, round(enroll_rate, 3)
 	print "\n"
 
+	# Analyze course description sentiment
+	afinn = Afinn()
+	sentiment_to_targets = defaultdict(list)
+	upper_bounds = [-.025, -.02, -.015, -.01, -.005, 0, .005, .01, .015, .02, .025, .03]
+	for i, course in enumerate(courses):
+		sentiment = afinn.score(course["summary"]) / len(course["summary"])
+		for bound in upper_bounds:
+			if sentiment < bound:
+				sentiment_to_targets[bound].append(targets[i])
+				break
+	print "===== Average Enrollment by Description Sentiment (upper bound : # courses : enrollment) =====\n"
+	for item in sorted(sentiment_to_targets.items()):
+		print item[0], len(item[1]), sum(item[1]) / len(item[1])
+	print "\nMost course descriptions feature a slightly positive sentiment. No observable enrollment pattern.\n\n"
+
+	# Analyze course description length
+	lengths_to_targets = defaultdict(list)
+	upper_bounds = [50, 100, 150, 200, 250, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400]
+	for i, course in enumerate(courses):
+		l = len(course["summary"])
+		for bound in upper_bounds:
+			if l < bound:
+				lengths_to_targets[bound].append(targets[i])
+				break
+	print "===== Average Enrollment by Description Lenth (upper bound : # courses : enrollment) =====\n"
+	for item in sorted(lengths_to_targets.items()):
+		print item[0], len(item[1]), sum(item[1]) / len(item[1])
+	print "\n"
 
 def test_model(matrix, model):
 
 	test_errors = []
 
 	# Ten iterations of 80/20 cross-validation
-	for _ in range(10):
+	for _ in range(1):
 	
 		# Randomly partition about 80% of the data for training and the remaining for testing
 		training_matrix, training_targets, test_matrix, test_targets = [], [], [], []
@@ -239,7 +268,7 @@ def test_model(matrix, model):
 		# Train and predict on test data
 		model.fit(training_matrix, training_targets)
 		test_predictions = model.predict(test_matrix)
-		test_errors.append(math.sqrt(metrics.mean_squared_error(test_targets, test_predictions)))
+		test_errors.append(metrics.mean_absolute_error(test_targets, test_predictions))
 	
 	print "Minimum mean error over ten models:", min(test_errors), "\n\n"
 
@@ -251,30 +280,35 @@ def predict():
 	for i, course in enumerate(courses):
 		
 		# Column 0: Department classification
-		matrix[i][0] = dep_map[course["department"]]
+		# Single-var random tree absolute error: .190
+		matrix[i][0] = dep_map[course["department"]] 
 		
 		# Columns 1 - 4: Possible distros
+		# Single-var random tree absolute error: .217
 		course_distros = course["requirements_met"].split("\n")
 		course_distros = filter(lambda distro : distro, course_distros)
 		for j, distro in enumerate(course_distros):
-			matrix[i][1 + j] = distro_map[distro]
+			matrix[i][1 + j] = distro_map[distro] 
 
 		# Column 5: Start time
-		matrix[i][5] = start_map[time_string_to_float(course["start_time"])]
+		# Single-var random tree absolute error: .214
+		matrix[i][5] = start_map[time_string_to_float(course["start_time"])] 
 
 		# Columns 6 and 7: RateMyProfessors data
 		try:
 			prof = prof_map[course["faculty"]]
-			matrix[i][6] = prof[0]
-			matrix[i][7] = prof[1]
+			matrix[i][6] = prof[0] # Single-var random tree absolute error: .224
+			matrix[i][7] = prof[1] # Single-var random tree absolute error: .220
 		except:
 			pass
 
 		# Column 8: Course title
+		# Single-var random tree absolute error: .183
 		matrix[i][8] = title_map[course["title"]]
 
 		# Column 9: Course duration
-		matrix[i][9] = round(time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]), 2)
+		# Single-var random tree absolute error: .207
+		matrix[i][9] = round(time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]), 2) 
 
 	# Standardize the data: center columns at 0 and divide by variance
 	for i in range(len(matrix[0])):
@@ -305,10 +339,12 @@ main()
 '''
 ************************* MODEL *************************
 
-Try a different error function of (mean squared error) * P(t) <- For P(t), make histogram of t's and normalize, take value at t bucket
+Low priority: Try a different error function of (mean squared error) * P(t) <- For P(t), make histogram of t's and normalize, take value at t bucket
 
 
 ************************* START TIMES *************************
+
+Low priority:
 
 Options for start time: 
 	Try keeping everything
@@ -321,4 +357,4 @@ Results:
 
 '''
 
-# Current best mean error: .2042
+# Current best mean error: .1562, from random tree regressor
