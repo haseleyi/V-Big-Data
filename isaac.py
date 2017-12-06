@@ -14,7 +14,7 @@ import math
 import random
 
 courses, targets, departments, distros, starts, profs, titles, durations = [], [], [], [], [], [], [], []
-dep_map, distro_map, start_map, prof_map, title_map, duration_map = {}, {}, {}, {}, {}, {}
+dep_map, distro_map, start_map, prof_map, title_map, duration_map, dep_to_enroll, profs_to_ratings  = {}, {}, {}, {}, {}, {}, {}, {}
 
 
 def prediction_variables_present(course):
@@ -103,6 +103,7 @@ def analyze():
 	enrollment_by_dep.sort(key = lambda x : x[1], reverse = True)
 	print "===== Average Course Enrollment by Department =====\n"
 	for dep, enroll_rate in enrollment_by_dep:
+		dep_to_enroll[dep] = enroll_rate
 		print dep, round(enroll_rate, 3),
 	print "\n\n"
 
@@ -144,37 +145,32 @@ def analyze():
 	  print start, round(enroll_rate, 3)
 	print "\n\n"
 
-	# Construct prof map
+	# Construct prof data structures
 	for course in courses:
 		for prof in profs:
 			if prof[0] in course["faculty"] and prof[1] in course["faculty"]:
-				prof_map[course["faculty"]] = (prof[2], prof[3], course["department"])
+				# Enroll name : (rating, number of ratings, department)
+				profs_to_ratings[course["faculty"]] = (prof[2], prof[3], course["department"])
+	profs_to_targets = {}
+	for prof in profs_to_ratings.keys():
+		prof_targets = [targets[i] for i, course in enumerate(courses) if course["faculty"] == prof]
+		profs_to_targets[prof] = sum(prof_targets) / len(prof_targets)
+	prof_set = {course["faculty"] for course in courses}
+	for i, prof in enumerate(list(prof_set)):
+		prof_map[prof] = i
 
-	# Find highest-rated profs
-	prof_items = prof_map.items()
+	# Find average enrollments of highest-rated profs
+	prof_items = profs_to_ratings.items()
 	prof_items.sort()
 	prof_items.sort(key = lambda prof : prof[1][1], reverse = True)
 	prof_items.sort(key = lambda prof : prof[1][0], reverse = True)
-	print "===== Highest-Rated Professors =====\n"
+	print "===== Enrollment for Highest-Rated Professors =====\n"
 	for prof in prof_items:
+		# Find profs with rating > 4.7 and number of ratings > 4
 		if prof[1][0] > 4.7 and prof[1][1] > 4 and len(prof[0].split(",")) == 1:
-			print prof[1][2], prof[0][1:], prof[1][0], prof[1][1]
+			# Print department, Enroll name, rating, number of ratings, average enrollment
+			print prof[1][2], prof[0][1:], prof[1][0], prof[1][1], profs_to_targets[prof[0]]
 	print "\n\n"
-	
-	# Analyze average course enrollment rate by professor
-	enrollment_by_prof = []
-	for prof in prof_map.keys():
-		prof_targets = []
-		for i, course in enumerate(courses):
-			if course["faculty"] == prof:
-				prof_targets.append(targets[i])
-		enrollment_by_prof.append((prof, sum(prof_targets) / len(prof_targets), prof_map[prof][2]))
-	enrollment_by_prof.sort(key = lambda x : x[1], reverse = True)
-	print "===== Average Course Enrollment by Prof =====\n"
-	for prof, enroll_rate, dep in enrollment_by_prof[:50]:
-		if len(prof.split(",")) == 1:
-			print dep, prof[1:], round(enroll_rate, 3)
-	print "\n"
 
 	# Construct course data structures
 	title_set = {course["title"] for course in courses}
@@ -250,13 +246,11 @@ def analyze():
 
 	# Analyze key words in course descriptions
 	words_to_targets = defaultdict(list)
-	key_words = ["sex", "gender", "race", "mind", "critique", "exciting", "fascinating", "internet", "sustainable", "social", "global", "food", "introduction", "environment", "required", "danger", "research", "modern", "additional time", "advanced", "period", "death", "paper", "essay", "assignment", "order", "science", "write", "read", "novel", "fiction", "non-fiction", "conflict", "war", "peace", "technology", "data", "politic", "love", "democracy", "question", "meaning", "ethic", "moral", "project", "team"]
+	key_words = ["sex", "gender", "collab", "internet", "food", "introduction", "asia", "europe", "africa", "middle east", "america", "advanced", "essay", "assignment", "science", "novel", "non-fiction", "data", "love", "democracy", "project", "team"]
 	for word in key_words:
 		for i, course in enumerate(courses):
-			if word in course["summary"]:
+			if word in course["summary"].lower():
 				words_to_targets[word].append(targets[i])
-				# if word == "data":
-				# 	print course["department"], course["title"]
 	print "===== Average Enrollment by Description Key Word (word : # descriptions : enrollment) =====\n"
 	word_target_items = words_to_targets.items()
 	word_target_items.sort(key = lambda x : sum(x[1]) / len(x[1]), reverse = True)
@@ -269,7 +263,7 @@ def test_model(matrix, model):
 	test_errors = []
 
 	# Ten iterations of 80/20 cross-validation
-	for _ in range(1):
+	for _ in range(10):
 	
 		# Randomly partition about 80% of the data for training and the remaining for testing
 		training_matrix, training_targets, test_matrix, test_targets = [], [], [], []
@@ -292,7 +286,7 @@ def test_model(matrix, model):
 def predict():
 
 	# Construct training matrix
-	matrix = np.zeros((len(courses), 10))
+	matrix = np.zeros((len(courses), 11))
 	for i, course in enumerate(courses):
 		
 		# Column 0: Department classification
@@ -312,7 +306,7 @@ def predict():
 
 		# Columns 6 and 7: RateMyProfessors data
 		try:
-			prof = prof_map[course["faculty"]]
+			prof = profs_to_ratings[course["faculty"]]
 			matrix[i][6] = prof[0] # Single-var random tree absolute error: .224
 			matrix[i][7] = prof[1] # Single-var random tree absolute error: .220
 		except:
@@ -325,6 +319,10 @@ def predict():
 		# Column 9: Course duration
 		# Single-var random tree absolute error: .207
 		matrix[i][9] = round(time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]), 2) 
+
+		# Column 10: Professor
+		# Single-var random tree absolute error: .184
+		matrix[i][10] = prof_map[course["faculty"]]
 
 	# Standardize the data: center columns at 0 and divide by variance
 	for i in range(len(matrix[0])):
@@ -348,7 +346,7 @@ def main():
 	
 	initialize_data()
 	analyze()
-	predict()
+	# predict()
 	
 main()
 
