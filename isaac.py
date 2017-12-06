@@ -4,6 +4,7 @@ from sklearn.naive_bayes import BernoulliNB, GaussianNB
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.feature_selection import SelectFromModel
 from sklearn.neural_network import MLPRegressor
+from sklearn import linear_model
 from sklearn import svm
 from collections import defaultdict
 from afinn import Afinn
@@ -160,6 +161,7 @@ def analyze():
         prof_map[prof] = i
 
     # Find average enrollments of highest-rated profs
+    golden_prof_targets = []
     prof_items = profs_to_ratings.items()
     prof_items.sort()
     prof_items.sort(key = lambda prof : prof[1][1], reverse = True)
@@ -170,6 +172,8 @@ def analyze():
         if prof[1][0] > 4.7 and prof[1][1] > 4 and len(prof[0].split(",")) == 1:
             # Print department, Enroll name, rating, number of ratings, average enrollment
             print prof[1][2], prof[0][1:], prof[1][0], prof[1][1], profs_to_targets[prof[0]]
+            golden_prof_targets.append(profs_to_targets[prof[0]])
+    print sum(golden_prof_targets) / len(golden_prof_targets)
     print "\n\n"
 
     # Construct course data structures
@@ -238,6 +242,8 @@ def analyze():
         for bound in upper_bounds:
             if l < bound:
                 lengths_to_targets[bound].append(targets[i])
+                if bound < 150:
+                    print course["department"], course["title"]
                 break
     print "===== Average Enrollment by Description Length (upper bound : # courses : enrollment) =====\n"
     for item in sorted(lengths_to_targets.items()):
@@ -247,10 +253,12 @@ def analyze():
     # Analyze key words in course descriptions
     words_to_targets = defaultdict(list)
     key_words = ["sex", "gender", "collab", "internet", "food", "introduction", "asia", "europe", "africa", "middle east", "america", "advanced", "essay", "assignment", "science", "novel", "non-fiction", "data", "love", "democracy", "project", "team"]
+    # key_words = ["extra time"]
     for word in key_words:
         for i, course in enumerate(courses):
             if word in course["summary"].lower():
                 words_to_targets[word].append(targets[i])
+                # print course["department"], course["title"]
     print "===== Average Enrollment by Description Key Word (word : # descriptions : enrollment) =====\n"
     word_target_items = words_to_targets.items()
     word_target_items.sort(key = lambda x : sum(x[1]) / len(x[1]), reverse = True)
@@ -307,8 +315,8 @@ def predict():
         # Columns 6 and 7: RateMyProfessors data
         try:
             prof = profs_to_ratings[course["faculty"]]
-            matrix[i][6] = prof[0] # Single-var random tree absolute error: .224
-            matrix[i][7] = prof[1] # Single-var random tree absolute error: .220
+            matrix[i][6] = prof[0] # Single-var linreg error: .224
+            matrix[i][7] = prof[1] # Single-var linreg error: .232
         except:
             pass
 
@@ -317,7 +325,7 @@ def predict():
         matrix[i][8] = title_map[course["title"]]
 
         # Column 9: Course duration
-        # Single-var random tree absolute error: .207
+        # Single-var linreg error: .231
         matrix[i][9] = round(time_string_to_float(course["end_time"]) - time_string_to_float(course["start_time"]), 2) 
 
         # Column 10: Professor
@@ -341,6 +349,8 @@ def predict():
 
     print "===== Support Vector Machine Results =====\n"
     test_model(matrix, svm.SVR())
+
+    test_model(matrix, linear_model.LinearRegression())
 
 def main():
     
